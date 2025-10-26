@@ -1,10 +1,10 @@
 ideologies = {
 
-
-
 	communism = {
-
 		types = {
+			national_bolshevism = {
+				can_be_randomly_selected = no
+			}
 
 			marxism = {
 			}

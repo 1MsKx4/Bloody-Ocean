@@ -10,6 +10,16 @@ set_party_name = {
 	name = FLA_esotericism_party_russian
 }
 set_party_name = {
+	ideology = socialism2
+	long_name = FLA_socialism2_party_russian_long
+	name = FLA_socialism2_party_russian
+}
+set_party_name = {
+	ideology = natsoc
+	long_name = FLA_natsoc_party_russian_long
+	name = FLA_natsoc_party_russian
+}
+set_party_name = {
 	ideology = fascism
 	long_name = FLA_fascism_party_russian_long
 	name = FLA_fascism_party_russian

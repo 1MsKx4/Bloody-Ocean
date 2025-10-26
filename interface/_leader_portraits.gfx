@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Floppa"
+		texturefile = "gfx/leaders/SOV/Floppa.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Adolf_Hit"
 		texturefile = "gfx/leaders/GER/Adolf_Hit.dds"
 	}

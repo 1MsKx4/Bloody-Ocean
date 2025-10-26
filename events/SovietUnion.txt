@@ -5,6 +5,40 @@
 add_namespace = soviet
 
 country_event = {
+    id = soviet.300000
+    title = soviet.300000.t
+    desc = soviet.300000.desc
+    picture = GFX_report_event_stalin_01
+
+    trigger = {
+        tag = SOV
+        num_of_military_factories > 999999
+    }
+
+    option = {
+        name = soviet.300000.a
+        set_cosmetic_tag = SOV_FLOPPA
+
+        set_country_leader  = SOV_Floppa
+
+        add_popularity = {
+            ideology = communism
+            popularity = 1
+        }
+
+        set_politics = {
+            ruling_party = communism
+        }
+
+        set_party_name = {
+            ideology = communism
+            long_name = SOV_FloppaCommunism_party_russian_long
+            name = SOV_FloppaCommunism_party_russian
+        }
+    }
+}
+
+country_event = {
     id = soviet.4000000
     title = soviet.4000000.t
     desc = soviet.4000000.desc
@@ -217,4 +251,3 @@ country_event = {
 		
         set_country_flag = soviet_event_400000000_done 
     }
-}

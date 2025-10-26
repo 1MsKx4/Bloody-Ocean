@@ -74,6 +74,9 @@
 
 
  
+ SOV_FloppaCommunism_party_russian_long: "Шлеппацисткая Партия Советского Союза"
+ SOV_FloppaCommunism_party_russian: "ШПСС"
+
  SOV_NEWcommunism_party_russian_long: "Коммунистическая опозиция"
  SOV_NEWcommunism_party_russian: "Ком Опозиция"
  SOV_socialism_party_russian_long: "Всесоюзная Коммунистическая Партия Большевиков"
@@ -95,6 +98,10 @@
  FLA_neutrality_party_russian: "§RЗАПРЕЩЕНО§!"
  FLA_communism_party_russian_long: "§RЗАПРЕЩЕНО§!"
  FLA_communism_party_russian: "§RЗАПРЕЩЕНО§!"
+ FLA_socialism2_party_russian_long: "§RЗАПРЕЩЕНО§!"
+ FLA_socialism2_party_russian: "§RЗАПРЕЩЕНО§!"
+ FLA_natsoc_party_russian_long: "§RЗАПРЕЩЕНО§!"
+ FLA_natsoc_party_russian: "§RЗАПРЕЩЕНО§!"
 
 
 

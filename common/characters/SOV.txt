@@ -15,4 +15,20 @@ characters = {
 
 	    }
     }
+    SOV_Floppa = {
+        name = SOV_Floppa_L
+        portraits = {
+            civilian = {
+                large = GFX_Floppa
+            }
+        }
+        country_leader = {
+            ideology = national_bolshevism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
 }
