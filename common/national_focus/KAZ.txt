@@ -1,0 +1,569 @@
+focus_tree = {
+	id = KAZ_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KAZ
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = KAZ_WhatNow
+		icon = GFX_goal_support_democracy
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 14
+		y = 0
+		cost = 2
+		completion_reward = {
+			country_event = { id = kazakhstan.400 }
+		}
+	}
+	focus = {
+		id = KAZ_takeTheChance
+		prerequisite = {focus = KAZ_WhatNow}
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		mutually_exclusive = {focus = KAZ_continueBusiness}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 18
+		y = 1
+		cost = 4
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = KAZ_NeutralityWay
+		prerequisite = {focus = KAZ_takeTheChance}
+		icon = GFX_focus_generic_support_the_left_right
+		mutually_exclusive = {focus = KAZ_FascistWay}
+		mutually_exclusive = {focus = KAZ_FreedomWay}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 18
+		y = 2
+		cost = 4
+		completion_reward = {
+			set_political_party = {
+				ideology = neutrality
+				popularity = 60
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				last_election = "1935.12.17"
+				election_frequency = 48
+				long_name = KAZ_IndependenceParty
+				name = KAZ_IP
+			}
+		}
+	}
+	focus = {
+		id = KAZ_FascistWay
+		prerequisite = {focus = KAZ_takeTheChance}
+		relative_position_id = KAZ_NeutralityWay
+		icon = GFX_goal_support_fascism
+		mutually_exclusive = {focus = KAZ_NeutralityWay}
+		mutually_exclusive = {focus = KAZ_FreedomWay}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 2
+		y = 0
+		cost = 4
+		completion_reward = {
+			set_political_party = {
+				ideology = fascism
+				popularity = 55
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				last_election = "1935.12.17"
+				election_frequency = 48
+				long_name = KAZ_almatyFascists
+				name = KAZ_AF
+			}
+		}
+	}
+	focus = {
+		id = KAZ_FreedomWay
+		prerequisite = {focus = KAZ_takeTheChance}
+		relative_position_id = KAZ_NeutralityWay
+		icon = GFX_goal_support_democracy
+		mutually_exclusive = {focus = KAZ_NeutralityWay}
+		mutually_exclusive = {focus = KAZ_FascistWay}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = -2
+		y = 0
+		cost = 4
+		completion_reward = {
+			set_political_party = {
+				ideology = democratic
+				popularity = 65
+			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+				last_election = "1935.12.17"
+				election_frequency = 48
+				long_name = KAZ_UnionOfDemocrats
+				name = KAZ_UD
+			}
+		}
+	}
+	focus = {
+		id = KAZ_continueBusiness
+		prerequisite = {focus = KAZ_WhatNow}
+		mutually_exclusive = {focus = KAZ_takeTheChance}
+		icon = GFX_focus_SOV_socialism_in_one_country
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 10
+		y = 1
+		cost = 4
+		completion_reward = {
+			add_stability = 0.1	
+		}
+	}
+	focus = {
+		id = KAZ_Lenin
+		prerequisite = {focus = KAZ_continueBusiness}
+		icon = GFX_focus_SOV_the_path_of_marxism_leninism
+		mutually_exclusive = {focus = KAZ_Stalin}
+		mutually_exclusive = {focus = KAZ_Trotskiy}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 10
+		y = 2
+		cost = 4
+		completion_reward = {
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		id = KAZ_Stalin
+		prerequisite = {focus = KAZ_continueBusiness}
+		relative_position_id = KAZ_Lenin
+		icon = GFX_focus_fra_loyalty_stalin
+		mutually_exclusive = {focus = KAZ_Lenin}
+		mutually_exclusive = {focus = KAZ_Trotskiy}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = -2
+		y = 0
+		cost = 4
+		completion_reward = {
+			add_stability = -0.05
+			add_manpower = 15000
+		}
+	}
+	focus = {
+		id = KAZ_Trotskiy
+		prerequisite = {focus = KAZ_continueBusiness}
+		relative_position_id = KAZ_Lenin
+		icon = GFX_focus_fra_loyalty_trotzky
+		mutually_exclusive = {focus = KAZ_Lenin}
+		mutually_exclusive = {focus = KAZ_Stalin}
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 2
+		y = 0
+		cost = 4
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = -5000
+		}
+	}
+	focus = {
+		id = KAZ_GetReady
+		prerequisite = {focus = KAZ_Lenin}
+		relative_position_id = KAZ_Lenin
+		icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 0
+		y = 1
+		cost = 4
+		completion_reward = {
+			country_event = { id = kazakhstan.100 }
+		}
+	}
+	focus = {
+		id = KAZ_Aim
+		prerequisite = {focus = KAZ_GetReady}
+		relative_position_id = KAZ_GetReady
+		icon = GFX_SOV_protect_the_white_sea_baltic_canal_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = kaz_fire_completed }
+		}		
+		x = 0
+		y = 1
+		cost = 4
+		completion_reward = {
+			country_event = { id = kazakhstan.200 }
+		}
+	}
+	focus = {
+		id = KAZ_Fire
+		prerequisite = {focus = KAZ_Aim}
+		relative_position_id = KAZ_Aim
+		icon = GFX_SOV_war_heroes_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		cost = 4
+		completion_reward = {
+			country_event = { id = kazakhstan.300}
+        	set_country_flag = kaz_fire_completed
+        	set_country_flag = new_branch_unlocked
+		}
+	}
+	focus = {
+		id = KAZ_ForwardToAkmolinsk
+		# icon = GFX_your_icon_here
+		x = 10
+		y = 0
+		cost = 4
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+			add_ideas = KAZ_faster_army_spirit
+		}
+	}
+	focus = {
+		id = KAZ_DestroyTheBourgeoisie
+		prerequisite = {focus = KAZ_ForwardToAkmolinsk}
+		relative_position_id = KAZ_ForwardToAkmolinsk
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 4
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_TheLustPush
+		prerequisite = {focus = KAZ_DestroyTheBourgeoisie}
+		relative_position_id = KAZ_DestroyTheBourgeoisie
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 4
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_TookTheVictory
+		prerequisite = {focus = KAZ_TheLustPush}
+		relative_position_id = KAZ_TheLustPush
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 4
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_LeaveItAsItIs
+		prerequisite = {focus = KAZ_TookTheVictory}
+		relative_position_id = KAZ_TookTheVictory
+		mutually_exclusive = {focus = KAZ_TheFightIsNotOver}
+		# icon = GFX_your_icon_here
+		x = -1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_TheFightIsNotOver
+		prerequisite = {focus = KAZ_TookTheVictory}
+		relative_position_id = KAZ_TookTheVictory
+		mutually_exclusive = {focus = KAZ_LeaveItAsItIs}
+		# icon = GFX_your_icon_here
+		x = 1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_NowWeCanTakeABreath
+		prerequisite = {focus = KAZ_TheFightIsNotOver}
+		relative_position_id = KAZ_TheFightIsNotOver
+		# icon = GFX_your_icon_here
+		x = 1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_AndStartTheRecovery
+		prerequisite = {focus = KAZ_NowWeCanTakeABreath}
+		relative_position_id = KAZ_NowWeCanTakeABreath
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ToContinueLeninsWork
+		prerequisite = {focus = KAZ_TheFightIsNotOver}
+		relative_position_id = KAZ_TheFightIsNotOver
+		mutually_exclusive = {focus = KAZ_RethinkLeninTeory}
+		# icon = GFX_your_icon_here
+		x = 3
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_RethinkLeninTeory
+		prerequisite = {focus = KAZ_TheFightIsNotOver}
+		relative_position_id = KAZ_TheFightIsNotOver
+		mutually_exclusive = {focus = KAZ_ToContinueLeninsWork}
+		# icon = GFX_your_icon_here
+		x = 5
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_SummonThePhilosophers
+		prerequisite = {focus = KAZ_RethinkLeninTeory}
+		relative_position_id = KAZ_RethinkLeninTeory
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_TheFirstIdeaIsTheBestIdea
+		prerequisite = {focus = KAZ_ToContinueLeninsWork}
+		relative_position_id = KAZ_ToContinueLeninsWork
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_Hammer
+		prerequisite = {focus = KAZ_AndStartTheRecovery}
+		relative_position_id = KAZ_AndStartTheRecovery
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_Sickle
+		prerequisite = {focus = KAZ_TheFirstIdeaIsTheBestIdea}
+		relative_position_id = KAZ_TheFirstIdeaIsTheBestIdea
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_HammerAndSickle
+		prerequisite = {focus = KAZ_Sickle}
+		prerequisite = {focus = KAZ_Hammer}
+		relative_position_id = KAZ_Hammer
+		# icon = GFX_your_icon_here
+		x = 1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_SignThePapers
+		prerequisite = {focus = KAZ_HammerAndSickle}
+		relative_position_id = KAZ_HammerAndSickle
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_PutUpPosters
+		prerequisite = {focus = KAZ_SignThePapers}
+		relative_position_id = KAZ_SignThePapers
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ProclaimTheHeir
+		prerequisite = {focus = KAZ_PutUpPosters}
+		relative_position_id = KAZ_PutUpPosters
+		# icon = GFX_your_icon_here
+		x = 0
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ProvokeUzbekistan
+		prerequisite = {focus = KAZ_ProclaimTheHeir}
+		relative_position_id = KAZ_ProclaimTheHeir
+		# icon = GFX_your_icon_here
+		x = -1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ProvokeTurkmenistan
+		prerequisite = {focus = KAZ_ProclaimTheHeir}
+		relative_position_id = KAZ_ProclaimTheHeir
+		# icon = GFX_your_icon_here
+		x = -3
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ProvokeKyrgyzstan
+		prerequisite = {focus = KAZ_ProclaimTheHeir}
+		relative_position_id = KAZ_ProclaimTheHeir
+		# icon = GFX_your_icon_here
+		x = 1
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = KAZ_ProvokeTajikistan
+		prerequisite = {focus = KAZ_ProclaimTheHeir}
+		relative_position_id = KAZ_ProclaimTheHeir
+		# icon = GFX_your_icon_here
+		x = 3
+		y = 1
+		cost = 10
+		allow_branch = { 
+			has_country_flag = new_branch_unlocked
+		}		
+		completion_reward = {
+
+		}
+	}
+}

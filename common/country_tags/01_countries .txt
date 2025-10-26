@@ -1,0 +1,12 @@
+ANA = «countries/Anarchy.txt»
+NSF = «countries/NSF.txt»
+CAF = «countries/CAF.txt»
+AFN = «countries/AFN.txt»
+FLA = «countries/FLA.txt»
+FRF = «countries/FRF.txt»
+REI = «countries/Reich.txt»
+PLA = «countries/PLA.txt»
+GUN = «countries/Guangdong.txt»
+GNG = «countries/GNG.txt»
+JAI = «countries/JapIndia.txt»
+RK

@@ -1,0 +1,80 @@
+add_namespace = kazakhstan
+
+country_event = {
+	id = kazakhstan.100
+	title = kazakhstan.100.t
+	desc = kazakhstan.100.desc
+	picture = GFX_report_event_SOV_mongolia_fortify_border
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kazakhstan.100.a
+        586 = { set_demilitarized_zone = yes }
+        590 = { set_demilitarized_zone = yes }
+	}
+}
+
+country_event = {
+    id = kazakhstan.200
+	title = kazakhstan.200.t
+	desc = kazakhstan.200.desc
+	picture = GFX_report_event_fighters
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kazakhstan.200.a
+        402 = { set_demilitarized_zone = yes }
+        404 = { set_demilitarized_zone = yes }
+        583 = { set_demilitarized_zone = yes }
+        588 = { set_demilitarized_zone = yes }
+        882 = { set_demilitarized_zone = yes }
+	}
+}
+
+country_event = {
+    id = kazakhstan.300
+	title = kazakhstan.300.t
+	desc = kazakhstan.300.desc
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kazakhstan.300.a
+        set_politics = {
+            ruling_party = communism
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = KAZ_LeninsParty
+            name = KAZ_LP
+        }
+        start_civil_war = {
+            ideology = democratic
+            ruling_party = communism
+            size = 1
+            army_ratio = 0.2
+            navy_ratio = 0.2
+            air_ratio = 0.2
+            capital = 590
+            keep_political_leader = no
+            keep_political_party_members = no
+        }
+	}
+}
+
+country_event = {
+	id = kazakhstan.400
+	title = kazakhstan.400.t
+	desc = kazakhstan.400.desc
+	picture = GFX_report_event_SWE_pajala_bombed_building
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kazakhstan.400.a
+        add_stability = 0.05
+	}
+}

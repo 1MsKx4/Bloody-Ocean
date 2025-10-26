@@ -1,0 +1,28 @@
+set_convoys = 0
+
+
+create_country_leader = {
+    name = "???"
+    #picture = "gfx/leaders/путь/к/портрету.dds"
+    expire = "1965.1.1"
+    ideology = AFN_ANARCHY  
+    traits = {
+        
+    }
+}
+
+set_party_name = {
+	ideology = anarchy
+	long_name = AFN_ana_party_russian_long
+	name = AFN_ana_party_russian
+}
+
+set_politics = {
+	ruling_party = anarchy
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	anarchy = 100
+}

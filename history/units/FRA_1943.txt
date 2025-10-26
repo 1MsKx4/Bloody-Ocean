@@ -1,0 +1,131 @@
+division_template = {
+	name = "Пехота"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+        infantry = { x = 2 y = 3 }
+        infantry = { x = 1 y = 3 }
+        infantry = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+units = {
+    division= {	
+        location = 9504
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 9504
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6414
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6414
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 3322
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6587
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6563
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 742
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6718
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 6346
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 3035
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 9082
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 3085
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+
+    }
+    division= {	
+        location = 11423
+        division_template = "Пехота"
+        start_experience_factor = 0.03
+        start_equipment_factor = 0.5
+    }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_3
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.11
+		efficiency = 100
+	}
+}

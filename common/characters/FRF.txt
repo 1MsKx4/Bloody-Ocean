@@ -1,0 +1,18 @@
+characters = {
+    FRF_Charles_De_Gaulle = {
+        name = FRF_Charles_De_Gaulle_L
+        portraits = {
+            civilian = {
+                large = GFX_Charles_De_Gaulle
+            }
+        }
+        country_leader = {
+            ideology = populism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

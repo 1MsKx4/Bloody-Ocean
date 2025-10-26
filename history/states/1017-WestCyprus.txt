@@ -1,0 +1,32 @@
+
+state={
+	id=1017
+	name="STATE_1017" # Западный Кипр
+	manpower = 173979
+	
+	state_category = rural
+
+	history={
+		1943.3.2 = {			
+			owner = ITA
+			victory_points = { 7193 5 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 0
+				air_base = 4
+				7193 = {
+					naval_base = 3
+				}
+			}
+			add_core_of = ITA
+			add_core_of = CYP
+			add_core_of = TUR
+		}
+	}
+
+	provinces={
+		 7193
+	}
+
+	local_supplies=0.0 
+}

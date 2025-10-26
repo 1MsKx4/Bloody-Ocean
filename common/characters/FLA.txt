@@ -1,0 +1,18 @@
+characters = {
+    FLA_Charles_Maurras = {
+        name = FLA_Charles_Maurras_L
+        portraits = {
+            civilian = {
+                large = GFX_Charles_Maurras
+            }
+        }
+        country_leader = {
+            ideology = Gallic_esotericism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

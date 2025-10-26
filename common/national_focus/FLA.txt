@@ -1,0 +1,83 @@
+focus_tree = {
+	id = FLA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FLA
+		}
+	}
+
+	default = no
+
+    focus = {
+		id = FLA_ItsTime
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = FLA_fire_completed }
+		}		
+		x = 14
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_manpower = 1500
+		}
+	}
+	focus = {
+		id = FLA_ToGetUp
+		prerequisite = {focus = FLA_ItsTime}
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = FLA_fire_completed }
+		}		
+		x = 14
+		y = 1
+		cost = 4
+		completion_reward = {
+			add_stability = -0.05	
+		}
+	}
+	focus = {
+		id = FLA_From
+		prerequisite = {focus = FLA_ToGetUp}
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = FLA_fire_completed }
+		}		
+		x = 14
+		y = 2
+		cost = 4
+		completion_reward = {
+			add_political_power = -50	
+		}
+	}
+	focus = {
+		id = FLA_Your
+		prerequisite = {focus = FLA_From}
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = FLA_fire_completed }
+		}		
+		x = 14
+		y = 3
+		cost = 4
+		completion_reward = {
+			add_political_power = -50	
+		}
+	}
+	focus = {
+		id = FLA_Knees
+		prerequisite = {focus = FLA_Your}
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = FLA_fire_completed }
+		}		
+		x = 14
+		y = 4
+		cost = 4
+		completion_reward = {
+			add_manpower = 5000
+		}
+	}
+}

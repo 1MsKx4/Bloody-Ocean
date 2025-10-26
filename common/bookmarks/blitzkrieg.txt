@@ -1,0 +1,24 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_LAST_DAYS_NAME"
+		desc = "THE_LAST_DAYS_DESC"
+		date = 1943.3.2.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = { #TODO_Danne Make sure these spirits display the proper numbers!
+				GER_mefo_bills_1939_fake_ns
+				GER_army_1939_fake_ns
+				GER_wehrwirtschaft_fake_ns
+			}
+			focuses = {
+				GER_shatter_usas_hegemony
+				GER_war_with_the_ussr
+				GER_mittelafrika
+			}
+		}
+	}
+}

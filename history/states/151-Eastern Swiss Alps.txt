@@ -1,0 +1,26 @@
+
+state={
+	id=151
+	name="STATE_151"
+	manpower = 598920
+	state_category = rural
+	resources={
+		aluminium=15 # was: 24
+	}
+	history={
+		1943.3.2 = {	
+			add_core_of = GER
+			add_core_of = SWI
+			owner = GER
+			victory_points = { 658 1 }
+			buildings = {
+				infrastructure = 1 
+				industrial_complex = 1
+			}
+		}
+	}
+	provinces={
+		658 661 3660 3662 11601 
+	}
+	local_supplies=0.0 
+}

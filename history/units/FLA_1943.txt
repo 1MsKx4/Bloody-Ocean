@@ -1,0 +1,86 @@
+division_template = {
+	name = "Африканские Рабы"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+    priority = 0
+}
+division_template = {
+	name = "Галлийский Легион"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+
+units = {
+	division = {
+		location = 11012
+		division_template = "Африканские Рабы"
+		start_experience_factor = 0
+		start_equipment_factor = 0.65
+	}
+	division = {
+		location = 11012
+		division_template = "Африканские Рабы"
+		start_experience_factor = 0
+		start_equipment_factor = 0.65
+	}
+
+
+	division = {
+		location = 5084
+		division_template = "Африканские Рабы"
+		start_experience_factor = 0
+		start_equipment_factor = 0.65
+	}
+	division = {
+		location = 5084
+		division_template = "Африканские Рабы"
+		start_experience_factor = 0
+		start_equipment_factor = 0.65
+	}
+
+
+	division = {
+		location = 3165
+		division_template = "Африканские Рабы"
+		start_experience_factor = 0
+		start_equipment_factor = 0.65
+	}
+
+
+
+    division = {
+		location = 12830
+		division_template = "Галлийский Легион"
+		start_experience_factor = 0
+		start_equipment_factor = 0.75
+	}
+    division = {
+		location = 12830
+		division_template = "Галлийский Легион"
+		start_experience_factor = 0
+		start_equipment_factor = 0.75
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=87
+	name="STATE_87"
+	manpower = 1732000
+	
+	state_category = town
+	history={
+		1943.3.2 = {
+			owner = GER
+			add_core_of = POL
+			add_core_of = GER
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 3
+			}
+			victory_points = {
+				9508 10
+			}
+		}
+	}
+
+	provinces={
+		493 584 9439 9508 9546 11428 11515 
+	}
+
+	local_supplies=0.0 
+}
