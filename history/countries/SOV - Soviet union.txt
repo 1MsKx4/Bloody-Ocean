@@ -50,6 +50,7 @@ set_popularities = {
 
 
 recruit_character = SOV_Leon_Trotskiy
+recruit_character = SOV_ComOpos
 recruit_character = SOV_Floppa
 
 create_faction = FourthInternational

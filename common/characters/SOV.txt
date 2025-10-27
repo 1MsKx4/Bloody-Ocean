@@ -31,4 +31,20 @@ characters = {
 
 	    }
     }
+    SOV_ComOpos = {
+        name = SOV_ComOpos_L
+        portraits = {
+            civilian = {
+                large = GFX_ComOpos
+            }
+        }
+        country_leader = {
+            ideology = anti_revisionism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
 }

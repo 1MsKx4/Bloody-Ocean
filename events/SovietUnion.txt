@@ -19,7 +19,7 @@ country_event = {
         name = soviet.300000.a
         set_cosmetic_tag = SOV_FLOPPA
 
-        set_country_leader  = SOV_Floppa
+        set_country_leader = SOV_Floppa
 
         add_popularity = {
             ideology = communism
