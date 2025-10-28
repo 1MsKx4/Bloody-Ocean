@@ -20,20 +20,20 @@ country_event = {
         set_cosmetic_tag = SOV_FLOPPA
 
         set_country_leader = SOV_Floppa
-
+        
         add_popularity = {
-            ideology = communism
+            ideology = natbol
             popularity = 1
         }
 
         set_politics = {
-            ruling_party = communism
+            ruling_party = natbol
         }
 
         set_party_name = {
-            ideology = communism
-            long_name = SOV_FloppaCommunism_party_russian_long
-            name = SOV_FloppaCommunism_party_russian
+            ideology = natbol
+            long_name = SOV_Floppanatbol_party_russian_long
+            name = SOV_Floppanatbol_party_russian
         }
     }
 }

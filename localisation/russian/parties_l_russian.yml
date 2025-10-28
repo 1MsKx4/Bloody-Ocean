@@ -1,4 +1,12 @@
 ﻿l_russian:
+ natbol: "Национал большевизм"
+ natbol_desc: "Тоталитарный режим"
+ rusNatBol: "Национал большевизм"
+ rusNatBol_desc: "§RДА СМЕРТЬ!§!"
+
+
+
+
  natsoc: "Национал социализм"
  natsoc_desc: "Тоталитарный режим"
  gerNatSoc: "Национал социализм"
@@ -74,8 +82,8 @@
 
 
  
- SOV_FloppaCommunism_party_russian_long: "Шлеппацисткая Партия Советского Союза"
- SOV_FloppaCommunism_party_russian: "ШПСС"
+ SOV_Floppanatbol_party_russian_long: "Шлеппацисткая Партия Советского Союза"
+ SOV_Floppanatbol_party_russian: "ШПСС"
 
  SOV_NEWcommunism_party_russian_long: "Коммунистическая опозиция"
  SOV_NEWcommunism_party_russian: "Ком Опозиция"

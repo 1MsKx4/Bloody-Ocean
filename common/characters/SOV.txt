@@ -23,7 +23,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = national_bolshevism
+            ideology = rusNatBol
         }
         expire = "1990.1.1"
         id = -1

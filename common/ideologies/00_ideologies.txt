@@ -2,9 +2,6 @@ ideologies = {
 
 	communism = {
 		types = {
-			national_bolshevism = {
-				can_be_randomly_selected = no
-			}
 
 			marxism = {
 			}
@@ -69,6 +66,29 @@ ideologies = {
         }
 
         color = { 55 35 25 }
+
+        war_impact_on_world_tension = 0.1
+
+        faction_impact_on_world_tension = 0.2
+
+        ai_neutrality = yes
+
+        rules = {
+
+        }
+        
+        modifiers = {
+
+        }    
+    }
+
+    natbol = {
+
+        types = {
+            rusNatBol = { can_be_randomly_selected = no }
+        }
+
+        color = { 110 25 25 }
 
         war_impact_on_world_tension = 0.1
 
