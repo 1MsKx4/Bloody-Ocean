@@ -1,0 +1,62 @@
+ideas = {
+    country = {
+        GER_Indestructible_Army = {
+            picture = generic_fascism_drift_2
+            allowed = {
+                original_tag = GER            
+            }
+
+            allowed_civil_war = {
+                always = no
+            } 
+            removal_cost = -1                 
+            visible = yes
+        
+            modifier = {
+                army_speed_factor = 0.15   
+                army_attack_factor = 0.25
+                army_attack_speed_factor = 0.2
+                army_defence_factor = 0.05   
+                army_org_factor = 0.25
+            }
+        }
+        GER_Economic_Growth = {
+            picture = generic_economic_increase
+            allowed = {
+                original_tag = GER            
+            }
+
+            allowed_civil_war = {
+                always = no
+            } 
+            removal_cost = -1                 
+            visible = yes
+        
+            modifier = {
+                production_speed_buildings_factor = 0.2
+                industry_repair_factor = 0.05
+                production_factory_max_efficiency_factor = 0.1
+            }
+        }
+        GER_Millennial_Reich = {
+            picture = vittoria_mutilata
+            allowed = {
+                original_tag = GER            
+            }
+
+            allowed_civil_war = {
+                always = no
+            } 
+            removal_cost = -1                 
+            visible = yes
+        
+            modifier = {
+                research_speed_factor = 0.05
+                monthly_population = 0.05
+                political_power_cost = -0.1
+                political_power_gain = 0.05
+                war_support_factor = 0.2
+            }
+        }
+    }
+}

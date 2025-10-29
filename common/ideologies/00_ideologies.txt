@@ -111,7 +111,7 @@ ideologies = {
             Trotskyism = { can_be_randomly_selected = no }
         }
 
-        color = { 185 75 75 }
+        color = { 195 45 45 }
 
         war_impact_on_world_tension = 0.1
 

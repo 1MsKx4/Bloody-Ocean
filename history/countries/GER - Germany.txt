@@ -1,5 +1,11 @@
 ﻿capital = 64 # Berlin/Brandeburg
 
+add_ideas = {
+	GER_Indestructible_Army
+	GER_Economic_Growth
+	GER_Millennial_Reich
+}
+
 set_convoys = 500
 
 recruit_character = GER_Adolf_Hit
