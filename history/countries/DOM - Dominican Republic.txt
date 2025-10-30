@@ -31,8 +31,7 @@ recruit_character = DOM_manuel_de_jesus_troncoso
 recruit_character = DOM_jacinto_bienvenido_peynado
 
 
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
+ set_war_support = 0.1
 set_convoys = 5
 
 1939.1.1 = {

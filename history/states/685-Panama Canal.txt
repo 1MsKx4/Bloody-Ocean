@@ -6,6 +6,7 @@ state={
 	state_category = enclave
 
 	history={
+		set_demilitarized_zone = yes
 		owner = USA
 		victory_points = {
 			7617 5 

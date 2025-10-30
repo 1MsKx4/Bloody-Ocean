@@ -145,8 +145,7 @@ IF = {
 	}
 }
 
-set_country_flag = monroe_doctrine
-
+ 
 set_convoys = 15
 
 1939.1.1 = {

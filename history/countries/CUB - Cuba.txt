@@ -41,8 +41,7 @@ recruit_character = CUB_gerardo_machado
 recruit_character = CUB_eugenio_molinet_castro
 
 
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
+ set_war_support = 0.1
 set_convoys = 20
 
 1939.1.1 = {

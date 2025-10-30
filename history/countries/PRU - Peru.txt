@@ -78,8 +78,7 @@ recruit_character = PRU_armando_reveredo_iglesias
 recruit_character = PRU_reynaldo_vinatea
 
 
-set_country_flag = monroe_doctrine
-
+ 
 set_convoys = 5
 
 1939.1.1 = {

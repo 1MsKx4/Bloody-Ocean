@@ -37,8 +37,7 @@ recruit_character = GUA_eduardo_villagran_ariza
 recruit_character = GUA_manuel_arroyo
 
 
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
+ set_war_support = 0.1
 set_convoys = 5
 
 1939.1.1 = {

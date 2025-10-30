@@ -117,8 +117,7 @@ recruit_character = MEX_luis_maria_martinez
 recruit_character = MEX_indigenous_council
 recruit_character = MEX_maria_de_iturbide
 
-set_country_flag = monroe_doctrine
-
+ 
 set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1

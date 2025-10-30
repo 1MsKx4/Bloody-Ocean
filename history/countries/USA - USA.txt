@@ -1,5 +1,10 @@
 ﻿capital = 361 # Washington DC
 
+add_ideas = {
+	USA_The_Defeated
+	USA_Collapse_of_the_Economy
+}
+
 set_convoys = 300
 
 oob = "USA_1943"

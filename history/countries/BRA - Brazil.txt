@@ -306,8 +306,7 @@ IF = {
 	set_naval_oob = "BRA_1936_naval"	
 }
 
-set_country_flag = monroe_doctrine
-recruit_character = BRA_plinio_salgado
+ recruit_character = BRA_plinio_salgado
 recruit_character = BRA_luis_carlos_prestes
 #recruit_character = BRA_armando_sales
 recruit_character = BRA_eurico_gaspar_dutra
