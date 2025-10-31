@@ -1,5 +1,33 @@
 ideologies = {
 
+
+
+    natbol = {
+
+        types = {
+            rusNatBol = { can_be_randomly_selected = no }
+			chiNatBol = {can_be_randomly_selected = no}
+        }
+
+        color = { 110 25 25 }
+
+        war_impact_on_world_tension = 0.1
+
+        faction_impact_on_world_tension = 0.2
+
+        ai_neutrality = yes
+
+        rules = {
+
+        }
+        
+        modifiers = {
+
+        }    
+    }
+
+
+
 	communism = {
 		types = {
 
@@ -59,51 +87,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-    natsoc = {
 
-        types = {
-            gerNatSoc = { can_be_randomly_selected = no }
-        }
-
-        color = { 55 35 25 }
-
-        war_impact_on_world_tension = 0.1
-
-        faction_impact_on_world_tension = 0.2
-
-        ai_neutrality = yes
-
-        rules = {
-
-        }
-        
-        modifiers = {
-
-        }    
-    }
-
-    natbol = {
-
-        types = {
-            rusNatBol = { can_be_randomly_selected = no }
-        }
-
-        color = { 110 25 25 }
-
-        war_impact_on_world_tension = 0.1
-
-        faction_impact_on_world_tension = 0.2
-
-        ai_neutrality = yes
-
-        rules = {
-
-        }
-        
-        modifiers = {
-
-        }    
-    }
 
     socialism2 = {
 
@@ -126,38 +110,31 @@ ideologies = {
         modifiers = {
 
         }    
-    }
+    }    
+	
 
 
-    anarchy = {
-
+	natsoc = {
         types = {
-            rus_anarchy = { can_be_randomly_selected = no }
-            afn_anarchy = { can_be_randomly_selected = no }
+            gerNatSoc = { can_be_randomly_selected = no }
         }
 
-        color = { 0 0 0 }
+        color = { 55 35 25 }
 
-        war_impact_on_world_tension = 0
+        war_impact_on_world_tension = 0.1
 
-        faction_impact_on_world_tension = 0
+        faction_impact_on_world_tension = 0.2
 
         ai_neutrality = yes
 
         rules = {
 
-            can_force_government = no
-
-            can_send_volunteers = no
-
-            can_puppet = yes
         }
-
+        
         modifiers = {
 
-        }
+        }    
     }
-
 
 
 
@@ -219,28 +196,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-    esotericism = {
 
-        types = {
-            Gallic_esotericism = { can_be_randomly_selected = no }
-        }
-
-        color = { 75 25 105 }
-
-        war_impact_on_world_tension = 0.1
-
-        faction_impact_on_world_tension = 0.2
-
-        ai_neutrality = yes
-
-        rules = {
-
-        }
-        
-        modifiers = {
-
-        }    
-    }
 
 	neutrality = {
 
@@ -305,7 +261,9 @@ ideologies = {
 		
 		ai_give_core_state_control_threshold = 10000
 	}
-    
+
+
+
 	democratic = {
 
 		types = {
@@ -371,4 +329,57 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
+    esotericism = {
+
+        types = {
+            Gallic_esotericism = { can_be_randomly_selected = no }
+        }
+
+        color = { 75 25 105 }
+
+        war_impact_on_world_tension = 0.1
+
+        faction_impact_on_world_tension = 0.2
+
+        ai_neutrality = yes
+
+        rules = {
+
+        }
+        
+        modifiers = {
+
+        }    
+    }
+
+
+    
+    anarchy = {
+
+        types = {
+            rus_anarchy = { can_be_randomly_selected = no }
+            afn_anarchy = { can_be_randomly_selected = no }
+        }
+
+        color = { 0 0 0 }
+
+        war_impact_on_world_tension = 0
+
+        faction_impact_on_world_tension = 0
+
+        ai_neutrality = yes
+
+        rules = {
+
+            can_force_government = no
+
+            can_send_volunteers = no
+
+            can_puppet = yes
+        }
+
+        modifiers = {
+
+        }
+    }
 }

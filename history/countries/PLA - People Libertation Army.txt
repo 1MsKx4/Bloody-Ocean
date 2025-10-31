@@ -1,4 +1,4 @@
-capital = 10803
+capital = 752
 
 set_convoys = 0
 
@@ -41,16 +41,18 @@ set_party_name = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = natbol
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-    neutrality = 1
-    communism = 96
-    socialism2 = 3
+    communism = 10
+    natbol = 85
+    socialism2 = 5
 }
+
+recruit_character = PLA_Mao_Zedong
 
 set_research_slots = 2
 

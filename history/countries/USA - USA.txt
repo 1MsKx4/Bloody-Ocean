@@ -25,13 +25,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	neutrality = 15
-	socialism2 = 10
+	democratic = 62 
+	neutrality = 17
+	socialism2 = 8
 	communism = 5
-	esotericism = 5
-	fascism = 10
+	esotericism = 2
+	fascism = 6
 }
+
+recruit_character = USA_Douglas_MacArthur
 
 set_research_slots = 4
 

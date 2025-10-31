@@ -148,17 +148,15 @@ set_convoys = 0
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = natsoc
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 set_popularities = {
-	neutrality = 0
-	democratic = 15
-	fascism = 80
-	communism = 5
+	fascism = 20
+	natsoc = 80
 }
 
 recruit_character = GEN_hans_frank

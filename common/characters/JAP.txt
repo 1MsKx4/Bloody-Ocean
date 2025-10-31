@@ -1,0 +1,18 @@
+characters = {
+    JAP_Michinomiya_Hirohito = {
+        name = JAP_Michinomiya_Hirohito_L
+        portraits = {
+            civilian = {
+                large = GFX_Michinomiya_Hirohito
+            }
+        }
+        country_leader = {
+            ideology = fascism_ideology
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

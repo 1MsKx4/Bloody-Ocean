@@ -1,0 +1,18 @@
+characters = {
+    ITA_Benito_Mussolini = {
+        name = ITA_Benito_Mussolini_L
+        portraits = {
+            civilian = {
+                large = GFX_Benito_Mussolini
+            }
+        }
+        country_leader = {
+            ideology = fascism_ideology
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

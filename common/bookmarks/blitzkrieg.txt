@@ -4,20 +4,93 @@ bookmarks = {
 		desc = "THE_LAST_DAYS_DESC"
 		date = 1943.3.2.12
 		picture = "GFX_select_date_1939"
-		default_country = "GER"
+
+		default_country = "SOV"
 
 		GER = {
-			history = GER_BLITZKRIEG_DESC
-			ideology = fascism
-			ideas = { #TODO_Danne Make sure these spirits display the proper numbers!
-				GER_mefo_bills_1939_fake_ns
-				GER_army_1939_fake_ns
-				GER_wehrwirtschaft_fake_ns
+			history = GER_THE_LAST_DAYS_DESC
+			ideology = natsoc
+			ideas = {
+				GER_Indestructible_Army
+				GER_Economic_Growth
+				GER_Millennial_Reich
 			}
 			focuses = {
-				GER_shatter_usas_hegemony
-				GER_war_with_the_ussr
-				GER_mittelafrika
+ 
+			}
+		}
+		SOV = {
+			history = SOV_THE_LAST_DAYS_DESC
+			ideology = socialism2
+			ideas = {
+				SOV_Moscow_Defence
+				SOV_NKVD_Disloyal
+				SOV_Anarchist_Rebels				
+			}
+			focuses = {
+					
+			}
+		}
+		USA = {
+			history = USA_THE_LAST_DAYS_DESC
+			ideology = democratic
+			ideas = {
+				USA_The_Defeated
+				USA_Collapse_of_the_Economy
+			}
+			focuses = {
+					
+			}
+		}
+		JAP = {
+			history = JAP_THE_LAST_DAYS_DESC
+			ideology = fascism
+			ideas = {
+				JAP_The_Winner
+				JAP_Economy_Growth
+			}
+			focuses = {
+					
+			}
+		}
+		FLA = {
+			history = FLA_THE_LAST_DAYS_DESC
+			ideology = esotericism
+			ideas = {
+
+			}
+			focuses = {
+					
+			}
+		}
+		FRF = {
+			history = FRF_THE_LAST_DAYS_DESC
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+					
+			}
+		}
+		ITA = {
+			history = ITA_THE_LAST_DAYS_DESC
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+					
+			}
+		}
+		PLA = {
+			history = PLA_THE_LAST_DAYS_DESC
+			ideology = natbol
+			ideas = {
+
+			}
+			focuses = {
+					
 			}
 		}
 	}

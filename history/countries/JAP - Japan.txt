@@ -1,5 +1,10 @@
 ﻿capital = 282 # Tokyo/Kanto
 
+add_ideas = {
+	JAP_Economy_Growth
+	JAP_The_Winner
+}
+
 set_convoys = 350
 
 oob = "JAP_1943"
@@ -22,6 +27,8 @@ if = {
 create_faction = JAP_alliance
 add_to_faction = JAP 
 add_to_faction = SIA
+
+recruit_character = JAP_Michinomiya_Hirohito
 
 set_technology = {
 	basic_machine_tools = 1

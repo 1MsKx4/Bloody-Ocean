@@ -1,0 +1,44 @@
+ideas = {
+    country = {
+        JAP_The_Winner = {
+            picture = generic_japanese_conflict
+            allowed = {
+                original_tag = JAP            
+            }
+
+            allowed_civil_war = {
+                always = no
+            } 
+            removal_cost = -1                 
+            visible = yes
+        
+            modifier = {
+                army_speed_factor = 0.3   
+                army_attack_factor = 0.1
+                army_attack_speed_factor = 0.15
+                army_defence_factor = 0.4   
+                research_speed_factor = 0.15
+                stability_factor = 0.3
+            }
+        }
+        JAP_Economy_Growth = {
+            picture = generic_economic_increase
+            allowed = {
+                original_tag = JAP            
+            }
+
+            allowed_civil_war = {
+                always = no
+            } 
+            removal_cost = -1                 
+            visible = yes
+        
+            modifier = {
+                production_speed_buildings_factor = 0.3
+                industry_repair_factor = 0.25
+                production_factory_max_efficiency_factor = 0.2
+                production_factory_max_efficiency_factor = 0.1
+            }
+        }
+    }
+}

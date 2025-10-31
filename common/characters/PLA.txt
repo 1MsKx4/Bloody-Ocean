@@ -1,0 +1,18 @@
+characters = {
+    PLA_Mao_Zedong = {
+        name = PLA_Mao_Zedong_L
+        portraits = {
+            civilian = {
+                large = GFX_Mao_Zedong
+            }
+        }
+        country_leader = {
+            ideology = chiNatBol
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

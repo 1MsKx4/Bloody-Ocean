@@ -3,6 +3,26 @@ spriteTypes = {
 	# leaders we need to override in DLC go in this file
 
 	spriteType = {
+		name = "GFX_Mao_Zedong"
+		texturefile = "gfx/leaders/PLA/Mao_Zedong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Benito_Mussolini"
+		texturefile = "gfx/leaders/ITA/Benito_Mussolini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Michinomiya_Hirohito"
+		texturefile = "gfx/leaders/JAP/Michinomiya_Hirohito.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Douglas_MacArthur"
+		texturefile = "gfx/leaders/USA/Douglas_MacArthur.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Leon_Trotskiy"
 		texturefile = "gfx/leaders/SOV/Leon_Trotskiy.dds"
 	}
