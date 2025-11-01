@@ -1,0 +1,18 @@
+characters = {
+    ANA_EMPTY = {
+        name = ANA_EMPTY_L
+        portraits = {
+            civilian = {
+                large = GFX_EMPTY
+            }
+        }
+        country_leader = {
+            ideology = RUS_ANARCHY
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

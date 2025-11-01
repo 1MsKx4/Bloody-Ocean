@@ -17,9 +17,6 @@ state = {
 			victory_points = {
 				9628 3
 			}
-			GER = {
-				set_province_controller = 9674
-			}
 		}
 	}
 

@@ -8,7 +8,7 @@ state={
 
 	history={
 		1943.3.2 = {
-			owner = GER
+			owner = RKM
 			victory_points = {
 				3151 30.0
 			}
@@ -24,6 +24,7 @@ state={
 				}
 			}
 			add_core_of = SOV
+			add_core_of = RKM
 			1939.1.1 = {
 				buildings = {
 					arms_factory = 7

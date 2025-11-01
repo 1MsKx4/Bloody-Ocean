@@ -1,0 +1,27 @@
+focus_tree = {
+	id = SOV_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+
+	default = no
+
+    focus = {
+		id = SOV_DefeatIsNear
+		icon = GFX_SOV_liberate_ryutin_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = SOV_fire_completed }
+		}		
+		x = 14
+		y = 0
+		cost = 2
+		completion_reward = {
+			add_manpower = 1500
+		}
+	}
+}

@@ -30,7 +30,8 @@ state={
 				}
 			}
 			add_core_of = SOV
-			GER = {
+			add_core_of = RKM
+			RKM = {
 				set_province_controller = 11268
 				set_province_controller = 9395
 				set_province_controller = 9282

@@ -8,7 +8,7 @@ state={
 
 	history={
 		1943.3.2 = {	
-			owner = GER
+			owner = RKU
 			buildings = {
 				infrastructure = 3 #was: 5
 				arms_factory = 1
@@ -18,6 +18,8 @@ state={
 				413 5
 			}
 			add_core_of = SOV
+			add_core_of = RKU 
+			add_core_of = RKM
 			1939.1.1 = {
 				buildings = {
 					9448 = {

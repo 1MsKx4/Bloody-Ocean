@@ -2,7 +2,7 @@
 state={
 	id=246
 	name="STATE_246"
-	manpower = 1025458
+	manpower = 725458
 	
 	state_category = rural
 	resources={
@@ -11,7 +11,7 @@ state={
 
 	history={
 		1943.3.2 = {	
-			owner = GER
+			owner = RKM
 			victory_points = {
 				11349 1
 			}
@@ -19,11 +19,12 @@ state={
 				infrastructure = 3 #was: 5
 			}
 			add_core_of = SOV
+			add_core_of = RKM
 		}
 	}
 
 	provinces={
-		187 226 287 333 2999 3101 3215 3235 3279 3321 3344 6264 6303 6367 6400 9242 9265 9287 9333 9343 11224 11272 11315 11326 11349 11384
+		187 226 333 2999 3101 3215 3279 3321 6303 9265 9333 9343 11224 11315 11326 11349 11384
 	}
 
 	local_supplies=0.0 

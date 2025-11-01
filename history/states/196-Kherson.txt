@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		1943.3.2 = {
-			owner = RKU
+			owner = GER
 			add_core_of = SOV
 			add_core_of = UKR
 			add_core_of = RKU

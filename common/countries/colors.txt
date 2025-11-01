@@ -334,6 +334,18 @@ SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
+UZB = {
+	color = rgb { 40 90 90 }
+	color_ui = rgb { 40 90 90 }
+}
+TMS = {
+	color = rgb { 25 60 95 }
+	color_ui = rgb { 25 60 95 }
+}
+KYR = {
+	color = rgb { 120 80 40 }
+	color_ui = rgb { 120 80 40 }
+}
 SIK = {
 	color = rgb { 165 75 95 }
 	color_ui = rgb { 165 75 95 }
@@ -822,6 +834,10 @@ SHL = {
 ALT = {
 	color = rgb { 204 255 255 }
 	color_ui = rgb { 0 230 230 }
+}
+KAZ = {
+	color = rgb { 85 145 155 }
+	color_ui = rgb { 85 145 155 }
 }
 KAL = {
 	color = rgb { 255 204 0 }

@@ -9,12 +9,14 @@ state = {
 		1943.3.2 = {		
 			owner = SOV
 			add_core_of = SOV
+			add_core_of = RKU 
+			add_core_of = RKM
 
 			victory_points = {
 				3529 30 # Stalingrad
 			}
 
-			GER = {
+			RKU = {
 				set_province_controller = 3555
 				set_province_controller = 9504
 				set_province_controller = 6527

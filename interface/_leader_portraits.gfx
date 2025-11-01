@@ -3,6 +3,11 @@ spriteTypes = {
 	# leaders we need to override in DLC go in this file
 
 	spriteType = {
+		name = "GFX_EMPTY"
+		texturefile = "gfx/leaders/ANA/EMPTY.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Mao_Zedong"
 		texturefile = "gfx/leaders/PLA/Mao_Zedong.dds"
 	}

@@ -36,6 +36,10 @@ set_autonomy = {
 	target = MNT
 	autonomous_state = autonomy_puppet
 }
+set_autonomy = {
+	target = CRO
+	autonomous_state = autonomy_puppet
+}
 
 recruit_character = ITA_Benito_Mussolini
 

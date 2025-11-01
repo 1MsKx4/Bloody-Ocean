@@ -7,7 +7,9 @@ state = {
 
 	history =  {
 		1943.3.2 = {			
-			owner = GER
+			owner = RKU
+			add_core_of = RKU 
+			add_core_of = RKM
 			add_core_of = SOV
 
 			buildings = {

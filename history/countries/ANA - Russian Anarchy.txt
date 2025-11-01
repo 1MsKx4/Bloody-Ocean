@@ -1,14 +1,6 @@
 set_convoys = 0
 
-create_country_leader = {
-    name = "???"
-    #picture = "gfx/leaders/путь/к/портрету.dds"
-    expire = "1965.1.1"
-    ideology = RUS_ANARCHY  
-    traits = {
-        
-    }
-}
+recruit_character = ANA_EMPTY
 
 set_party_name = {
 	ideology = anarchy

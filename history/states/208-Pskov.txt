@@ -8,12 +8,13 @@ state={
 
 	history={
 		1943.3.2 = {		
-			owner = GER
+			owner = RKM
 			buildings = {
 				infrastructure = 3 #was: 5
 				air_base = 3
 			}
 			add_core_of = SOV
+			add_core_of = RKM
 			victory_points = {
 				9098 1
 			}

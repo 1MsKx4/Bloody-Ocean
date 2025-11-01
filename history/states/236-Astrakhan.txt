@@ -17,7 +17,8 @@ state={
 				air_base = 1
 			}
 			add_core_of = SOV
-			GER = {
+			add_core_of = RKK
+			RKK = {
 				set_province_controller = 3487
 				set_province_controller = 3461
 				set_province_controller = 9440

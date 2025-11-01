@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		1943.3.2 = {			
+		1943.3.2 = {
+			owner = RKU			
 			victory_points = {
 				3580 5
 			}
@@ -15,7 +16,9 @@ state={
 				air_base = 1
 			}
 			add_core_of = SOV
-			owner = GER
+			add_core_of = RKU 
+			add_core_of = RKM
+			
 		}
 	}
 
