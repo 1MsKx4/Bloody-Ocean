@@ -9,4 +9,8 @@ PLA = «countries/PLA.txt»
 GUN = «countries/Guangdong.txt»
 GNG = «countries/GNG.txt»
 JAI = «countries/JapIndia.txt»
-RK
+CLR = «countries/CLR.txt»
+TND = «countries/TND.txt»
+FSR = «countries/FSR.txt»
+IGI = «countries/IGI.txt»
+TRR = «countries/TRR.txt»

@@ -1,0 +1,56 @@
+focus_tree = {
+	id = ANA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ANA
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = ANA_TheLightOfHope
+		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = ANA_fire_completed }
+		}		
+		x = 14
+		y = 0
+		cost = 52
+		completion_reward = {
+			country_event = { id = russianAnarchy.30000000 }
+		}
+	}
+	focus = {
+		id = ANA_LotsOfPlayers
+		prerequisite = {focus = ANA_TheLightOfHope}
+        relative_position_id = ANA_TheLightOfHope
+		icon = GFX_SOV_claims_in_baltic_ccp_2d_sov_compatibility
+		allow_branch = { 
+			NOT = { has_country_flag = ANA_fire_completed }
+		}		
+		x = 0
+		y = 1
+		cost = 4
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = ANA_Minorities
+		prerequisite = {focus = ANA_LotsOfPlayers}
+		relative_position_id = ANA_LotsOfPlayers
+		icon = GFX_SOV_coup_detat_ccp_2d_sov_compatibility
+		x = 0
+		y = 1
+		cost = 4
+		completion_reward = {
+			country_event = { id = ANAakhstan.300}
+        	set_country_flag = ANA_fire_completed
+        	set_country_flag = new_branch_unlocked
+		}
+	}
+}

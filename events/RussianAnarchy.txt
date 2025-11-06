@@ -6,11 +6,7 @@ country_event = {
     desc = russianAnarchy.30000000.desc
     picture = GFX_report_event_military_planning
 
-    trigger = {
-        tag = ANA    
-        date > 1944.12.31
-        date < 1945.1.1
-    }
+    is_triggered_only = yes
 
     option = {
         name = russianAnarchy.30000000.a
@@ -20,8 +16,9 @@ country_event = {
             transfer_state = 398
             transfer_state = 573
         }
-        653 = { set_demilitarized_zone = no }
-        398 = { set_demilitarized_zone = no }
-        573 = { set_demilitarized_zone = no }  
+        653 = { set_demilitarized_zone = no add_core_of = NSF}
+        398 = { set_demilitarized_zone = no add_core_of = NSF}
+        573 = { set_demilitarized_zone = no add_core_of = NSF}  
+        
     }
 }
