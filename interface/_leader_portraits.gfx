@@ -1,6 +1,29 @@
 spriteTypes = {
 
-	# leaders we need to override in DLC go in this file
+	spriteType = {
+		name = "GFX_Anton_Denikin"
+		texturefile = "gfx/leaders/IGI/Anton_Denikin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Grigory_Semenov"
+		texturefile = "gfx/leaders/FSR/Grigory_Semenov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Andrey_Vlasov"
+		texturefile = "gfx/leaders/CLR/Andrey_Vlasov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Bronislaw_Kaminsky"
+		texturefile = "gfx/leaders/TND/Bronislaw_Kaminsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Mikhail_Tukhachevsky"
+		texturefile = "gfx/leaders/NSF/Mikhail_Tukhachevsky.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMPTY"

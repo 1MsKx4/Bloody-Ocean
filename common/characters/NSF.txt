@@ -1,0 +1,18 @@
+characters = {
+    NSF_Mikhail_Tukhachevsky = {
+        name = NSF_Mikhail_Tukhachevsky_L
+        portraits = {
+            civilian = {
+                large = GFX_Mikhail_Tukhachevsky
+            }
+        }
+        country_leader = {
+            ideology = marxism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

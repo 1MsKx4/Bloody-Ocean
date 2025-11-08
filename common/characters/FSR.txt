@@ -1,0 +1,18 @@
+characters = {
+    FSR_Grigory_Semenov = {
+        name = FSR_Grigory_Semenov_L
+        portraits = {
+            civilian = {
+                large = GFX_Grigory_Semenov
+            }
+        }
+        country_leader = {
+            ideology = despotism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

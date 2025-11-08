@@ -109,6 +109,7 @@ country_event = {
 
     option = {
         name = soviet.40000000.a
+        ANA = { set_country_flag = ANA_focus_unlocked }
 		ANA = { change_tag_from = SOV }
         ANA = {
             transfer_state = 40

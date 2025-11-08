@@ -1,0 +1,1227 @@
+focus_tree = {
+	id = NSF_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NSF
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = NSF_RebuildTheIndustry
+		icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+
+        allow_branch = { 
+			NOT = { has_country_flag = NSF_Siberia_unlocked }
+		}	
+
+		x = 30
+		y = 0
+		cost = 10
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = NSF_LaunchNewMilitaryFactories
+		prerequisite = {focus = NSF_RebuildTheIndustry}
+		relative_position_id = NSF_RebuildTheIndustry
+		icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+            573 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+	}
+	focus = {
+		id = NSF_EveryoneToTheFactory
+		prerequisite = {focus = NSF_RebuildTheIndustry}
+		relative_position_id = NSF_RebuildTheIndustry
+		icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+            398 = {
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+	}
+	focus = {
+        id = NSF_NewRoads
+        prerequisite = {focus = NSF_RebuildTheIndustry}
+        relative_position_id = NSF_RebuildTheIndustry
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+            653 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            573 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes    
+                }
+            }
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork...
+        prerequisite = {focus = NSF_LaunchNewMilitaryFactories}
+        relative_position_id = NSF_LaunchNewMilitaryFactories
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork?..
+        prerequisite = {focus = NSF_LaunchNewMilitaryFactories}
+        relative_position_id = NSF_LaunchNewMilitaryFactories
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.?.
+        prerequisite = {focus =  NSF_AtWork...}
+        prerequisite = {focus =  NSF_AtWork?..}
+        relative_position_id = NSF_AtWork?..
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork..?
+        prerequisite = {focus = NSF_EveryoneToTheFactory}
+        relative_position_id = NSF_EveryoneToTheFactory
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork??.
+        prerequisite = {focus = NSF_EveryoneToTheFactory}
+        relative_position_id = NSF_EveryoneToTheFactory
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.??
+        prerequisite = {focus = NSF_AtWork??.}
+        prerequisite = {focus = NSF_AtWork..?}
+        relative_position_id = NSF_AtWork??.
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork???
+        prerequisite = {focus = NSF_NewRoads}
+        relative_position_id = NSF_NewRoads
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork
+        prerequisite = {focus = NSF_AtWork???}
+        relative_position_id = NSF_AtWork???
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.
+        prerequisite = {focus = NSF_AtWork}
+        prerequisite = {focus = NSF_AtWork.?.}
+        prerequisite = {focus = NSF_AtWork.??}
+        relative_position_id = NSF_AtWork
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_LegacyOfA
+        icon = GFX_SOV_return_of_the_rocor_ccp_2d_sov_compatibility
+
+        allow_branch = { 
+			NOT =  {has_country_flag = NSF_Siberia_unlocked }
+		}	
+
+        x = 15
+        y = 0
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_GreatCivilization
+        icon = GFX_SOV_the_fourth_international_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_LegacyOfA}
+        relative_position_id = NSF_LegacyOfA
+        mutually_exclusive = {focus = NSF_BackwardCivilization}
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_BackwardCivilization
+        icon = GFX_SOV_the_komsomol_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_LegacyOfA}
+        relative_position_id = NSF_LegacyOfA
+        mutually_exclusive = {focus = NSF_GreatCivilization}
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_ArmingTheStateTRO
+        icon = GFX_SOV_the_eyes_fear_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_GreatCivilization}
+        relative_position_id = NSF_GreatCivilization
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+
+
+	focus = {
+        id = NSF_PlaceABetOnInfantryTRO
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ArmingTheStateTRO}
+        relative_position_id = NSF_ArmingTheStateTRO
+        mutually_exclusive = {focus = NSF_PlaceABetOnMechanizedUnitsTRO}
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_StartMassMilitaryExercisesTRO
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_PlaceABetOnInfantryTRO}
+        relative_position_id = NSF_PlaceABetOnInfantryTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_EachPeasantHasARifleTRO
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_StartMassMilitaryExercisesTRO}
+        relative_position_id = NSF_StartMassMilitaryExercisesTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_EachWorkerHasAGrenadeTRO
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_EachPeasantHasARifleTRO}
+        relative_position_id = NSF_EachPeasantHasARifleTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_PlaceABetOnMechanizedUnitsTRO
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ArmingTheStateTRO}
+        relative_position_id = NSF_ArmingTheStateTRO
+        mutually_exclusive = {focus = NSF_PlaceABetOnInfantryTRO}
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+	focus = {
+        id = NSF_GiveTheOrderTRO
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_PlaceABetOnMechanizedUnitsTRO}
+        relative_position_id = NSF_PlaceABetOnMechanizedUnitsTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+	focus = {
+        id = NSF_ExpandHangarsTRO
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_GiveTheOrderTRO}
+        relative_position_id = NSF_GiveTheOrderTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }    
+	focus = {
+        id = NSF_EachFamilyHasATankTRO
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ExpandHangarsTRO}
+        relative_position_id = NSF_ExpandHangarsTRO
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }                
+
+
+
+	focus = {
+        id = NSF_TakeIntoAccountTheMistakesOfThePast
+        icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_EachWorkerHasAGrenadeTRO focus = NSF_EachFamilyHasATankTRO}
+        relative_position_id = NSF_EachWorkerHasAGrenadeTRO
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_ArmingTheState
+        icon = GFX_SOV_the_eyes_fear_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_BackwardCivilization}
+        relative_position_id = NSF_BackwardCivilization
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+
+
+	focus = {
+        id = NSF_PlaceABetOnInfantry
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ArmingTheState}
+        relative_position_id = NSF_ArmingTheState
+        mutually_exclusive = {focus = NSF_PlaceABetOnMechanizedUnits}
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_StartMassMilitaryExercises
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_PlaceABetOnInfantry}
+        relative_position_id = NSF_PlaceABetOnInfantry
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_EachPeasantHasARifle
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_StartMassMilitaryExercises}
+        relative_position_id = NSF_StartMassMilitaryExercises
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_EachWorkerHasAGrenade
+        icon = GFX_SOV_leader_of_the_party_and_the_people_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_EachPeasantHasARifle}
+        relative_position_id = NSF_EachPeasantHasARifle
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_PlaceABetOnMechanizedUnits
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ArmingTheState}
+        relative_position_id = NSF_ArmingTheState
+        mutually_exclusive = {focus = NSF_PlaceABetOnInfantry}
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+	focus = {
+        id = NSF_GiveTheOrder
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_PlaceABetOnMechanizedUnits}
+        relative_position_id = NSF_PlaceABetOnMechanizedUnits
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    } 
+	focus = {
+        id = NSF_ExpandHangars
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_GiveTheOrder}
+        relative_position_id = NSF_GiveTheOrder
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }    
+	focus = {
+        id = NSF_EachFamilyHasATank
+        icon = GFX_SOV_the_glory_of_the_red_army_alt_ccp_2d_sov_compatibility
+        prerequisite = {focus = NSF_ExpandHangars}
+        relative_position_id = NSF_ExpandHangars
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }                
+
+
+
+	focus = {
+        id = NSF_TakeIntoAccountTheMistakesOfThePastTRO
+        icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_EachWorkerHasAGrenade focus = NSF_EachFamilyHasATank}
+        relative_position_id = NSF_EachWorkerHasAGrenade
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+	focus = {
+        id = NSF_ExpandInfluence
+        icon = GFX_SOV_the_old_enemy_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeIntoAccountTheMistakesOfThePast focus = NSF_TakeIntoAccountTheMistakesOfThePastTRO}
+        prerequisite = { focus = NSF_AtWork. }
+        relative_position_id = NSF_TakeIntoAccountTheMistakesOfThePast
+        x = 11
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_TakeALookToTheSouth
+        icon = GFX_SOV_the_hands_do_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_ExpandInfluence}
+        relative_position_id = NSF_ExpandInfluence
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_TakeALookToTheEast
+        icon = GFX_SOV_the_hands_do_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_ExpandInfluence}
+        relative_position_id = NSF_ExpandInfluence
+        x = 4
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_TakeALookToTheWest
+        icon = GFX_SOV_the_hands_do_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_ExpandInfluence}
+        relative_position_id = NSF_ExpandInfluence
+        x = -4
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_SendTroopsToTheWest
+        icon = GFX_SOV_strengthen_the_mobilization_plan_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheWest}
+        relative_position_id = NSF_TakeALookToTheWest
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_PromiseThemProtectionWEST
+        icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheWest}
+        relative_position_id = NSF_TakeALookToTheWest
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_RedrawMapsWEST
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_SendTroopsToTheWest}
+        prerequisite = {focus = NSF_PromiseThemProtectionWEST}
+        relative_position_id = NSF_PromiseThemProtectionWEST
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_SendTroopsToTheEast
+        icon = GFX_SOV_strengthen_the_mobilization_plan_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheEast}
+        relative_position_id = NSF_TakeALookToTheEast
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_PromiseThemProtectionEAST
+        icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheEast}
+        relative_position_id = NSF_TakeALookToTheEast
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_RedrawMapsEAST
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_SendTroopsToTheEast}
+        prerequisite = {focus = NSF_PromiseThemProtectionEAST}
+        relative_position_id = NSF_PromiseThemProtectionEAST
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_SendTroopsToTheSouth
+        icon = GFX_SOV_strengthen_the_mobilization_plan_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheSouth}
+        relative_position_id = NSF_TakeALookToTheSouth
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_PromiseThemProtectionSOUTH
+        icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_TakeALookToTheSouth}
+        relative_position_id = NSF_TakeALookToTheSouth
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_RedrawMapsSOUTH
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_SendTroopsToTheSouth}
+        prerequisite = {focus = NSF_PromiseThemProtectionSOUTH}
+        relative_position_id = NSF_PromiseThemProtectionSOUTH
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_DestroyTatarstan
+        icon = GFX_SOV_left_opposition_coup_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_RedrawMapsSOUTH }
+        prerequisite = { focus = NSF_RedrawMapsWEST }
+        prerequisite = { focus = NSF_RedrawMapsEAST }
+        relative_position_id = NSF_RedrawMapsSOUTH
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_DestroyBashkortostan
+        icon = GFX_SOV_left_opposition_coup_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_RedrawMapsSOUTH }
+        prerequisite = { focus = NSF_RedrawMapsWEST }
+        prerequisite = { focus = NSF_RedrawMapsEAST }
+        relative_position_id = NSF_RedrawMapsSOUTH
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_DestroyUdmurtia
+        icon = GFX_SOV_left_opposition_coup_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_RedrawMapsSOUTH }
+        prerequisite = { focus = NSF_RedrawMapsWEST }
+        prerequisite = { focus = NSF_RedrawMapsEAST }
+        relative_position_id = NSF_RedrawMapsSOUTH
+        x = 0
+        y = 2
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_DestroyTraitors
+        icon = GFX_SOV_the_glory_of_the_red_army_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyUdmurtia }
+        prerequisite = { focus = NSF_DestroyBashkortostan }
+        prerequisite = { focus = NSF_DestroyTatarstan }
+        relative_position_id = NSF_DestroyUdmurtia
+        x = 0
+        y = 2
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_DestroyFascist
+        icon = GFX_SOV_the_lonely_island_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyTraitors }
+        relative_position_id = NSF_DestroyTraitors
+        x = -3
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_StrengthenTheBordersCLR
+        icon = GFX_SOV_improve_the_stalin_line_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyFascist }
+        relative_position_id = NSF_DestroyFascist
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_SendTheSaboteursCLR
+        icon = GFX_SOV_protect_the_white_sea_baltic_canal_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyFascist }
+        relative_position_id = NSF_DestroyFascist
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_DropFlyersFromTheAirCLR
+        icon = GFX_SOV_long_range_aircraft_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyFascist }
+        relative_position_id = NSF_DestroyFascist
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_DestroyNazi
+        icon = GFX_SOV_the_lonely_island_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyTraitors }
+        relative_position_id = NSF_DestroyTraitors
+        x = 3
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_StrengthenTheBordersTND
+        icon = GFX_SOV_improve_the_stalin_line_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyNazi }
+        relative_position_id = NSF_DestroyNazi
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_SendTheSaboteursTND
+        icon = GFX_SOV_protect_the_white_sea_baltic_canal_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyNazi }
+        relative_position_id = NSF_DestroyNazi
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_DropFlyersFromTheAirTND
+        icon = GFX_SOV_long_range_aircraft_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DestroyNazi }
+        relative_position_id = NSF_DestroyNazi
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_ProclaimVictoryTND
+        icon = GFX_SOV_japanese_overtures_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DropFlyersFromTheAirTND }
+        prerequisite = { focus = NSF_SendTheSaboteursTND }
+        prerequisite = { focus = NSF_StrengthenTheBordersTND }
+        relative_position_id = NSF_DropFlyersFromTheAirTND
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_ProclaimVictoryCLR
+        icon = GFX_SOV_japanese_overtures_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_DropFlyersFromTheAirCLR }
+        prerequisite = { focus = NSF_SendTheSaboteursCLR }
+        prerequisite = { focus = NSF_StrengthenTheBordersCLR }
+        relative_position_id = NSF_DropFlyersFromTheAirCLR
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = TakeALookAtSiberia 
+        icon = GFX_SOV_japanese_overtures_ccp_2d_sov_compatibility
+        prerequisite = { focus = NSF_ProclaimVictoryTND }
+        prerequisite = { focus = NSF_ProclaimVictoryCLR }
+        relative_position_id = NSF_ProclaimVictoryCLR
+        x = 3
+        y = 2
+        cost = 10
+        completion_reward = {
+			set_country_flag = NSF_Siberia_unlocked
+		}	
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+        id = RestoreNewRegions
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+
+        allow_branch = { 
+			has_country_flag = NSF_Siberia_unlocked
+		}	
+
+        x = 34
+        y = 0
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+		id = NSF_LaunchNewMilitaryFactoriesAFT
+		prerequisite = {focus = RestoreNewRegions}
+		relative_position_id = RestoreNewRegions
+		icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {
+            573 = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+	}
+	focus = {
+		id = NSF_EveryoneToTheFactoryAFT
+		prerequisite = {focus = RestoreNewRegions}
+		relative_position_id = RestoreNewRegions
+		icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {
+            398 = {
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+	}
+	focus = {
+        id = NSF_NewRoadsAFT
+        prerequisite = {focus = RestoreNewRegions}
+        relative_position_id = RestoreNewRegions
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+            653 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            573 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes    
+                }
+            }
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork...AFT
+        prerequisite = {focus = NSF_LaunchNewMilitaryFactoriesAFT}
+        relative_position_id = NSF_LaunchNewMilitaryFactoriesAFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork..AFT
+        prerequisite = {focus = NSF_LaunchNewMilitaryFactoriesAFT}
+        relative_position_id = NSF_LaunchNewMilitaryFactoriesAFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.AFT
+        prerequisite = {focus = NSF_LaunchNewMilitaryFactoriesAFT}
+        relative_position_id = NSF_LaunchNewMilitaryFactoriesAFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = -4
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork....AFT
+        prerequisite = {focus = NSF_EveryoneToTheFactoryAFT}
+        relative_position_id = NSF_EveryoneToTheFactoryAFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.....AFT
+        prerequisite = {focus = NSF_EveryoneToTheFactoryAFT}
+        relative_position_id = NSF_EveryoneToTheFactoryAFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork......AFT
+        prerequisite = {focus = NSF_EveryoneToTheFactoryAFT}
+        relative_position_id = NSF_EveryoneToTheFactoryAFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 4
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork.......AFT
+        prerequisite = {focus = NSF_NewRoadsAFT}
+        relative_position_id = NSF_NewRoadsAFT
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork........AFT
+        prerequisite = {focus = NSF_AtWork.......AFT}
+        relative_position_id = NSF_AtWork.......AFT
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork.????..AFT
+        prerequisite = {focus = NSF_AtWork.AFT}
+        prerequisite = {focus = NSF_AtWork...AFT}
+        prerequisite = {focus = NSF_AtWork..AFT}
+        relative_position_id = NSF_AtWork.AFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.??.AFT
+        prerequisite = {focus = NSF_AtWork.AFT}
+        prerequisite = {focus = NSF_AtWork...AFT}
+        prerequisite = {focus = NSF_AtWork..AFT}
+        relative_position_id = NSF_AtWork.AFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 3
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork.?????..AFT
+        prerequisite = {focus = NSF_AtWork.....AFT}
+        prerequisite = {focus = NSF_AtWork....AFT}
+        prerequisite = {focus = NSF_AtWork......AFT}
+        relative_position_id = NSF_AtWork.....AFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.????????.AFT
+        prerequisite = {focus = NSF_AtWork.....AFT}
+        prerequisite = {focus = NSF_AtWork....AFT}
+        prerequisite = {focus = NSF_AtWork......AFT}
+        relative_position_id = NSF_AtWork.....AFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 3
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = NSF_AtWork.??????????????????????????.AFT
+        prerequisite = {focus = NSF_AtWork.??.AFT}
+        prerequisite = {focus = NSF_AtWork.????..AFT}
+        relative_position_id = NSF_AtWork.??.AFT
+        icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
+        x = 1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = NSF_AtWork.????????????????????????.AFT
+        prerequisite = {focus = NSF_AtWork.????????.AFT}
+        prerequisite = {focus = NSF_AtWork.?????..AFT}
+        relative_position_id = NSF_AtWork.?????..AFT
+        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
+        x = -1
+        y = 1
+        cost = 10
+        completion_reward = {
+
+        }
+    }
+
+
+
+	focus = {
+        id = LastBrick
+        prerequisite = {focus = NSF_AtWork.??????????????????????????.AFT}
+        prerequisite = {focus = NSF_AtWork........AFT}
+        prerequisite = {focus = NSF_AtWork.????????????????????????.AFT}
+        relative_position_id = NSF_AtWork.??????????????????????????.AFT
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+
+
+
+	focus = {
+        id = InviteThemToSurrender
+        icon = GFX_SOV_the_berlin_moscow_axis_ccp_2d_sov_compatibility
+
+        allow_branch = { 
+			has_country_flag = NSF_Siberia_unlocked
+		}	
+
+        x = 16
+        y = 0
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+}

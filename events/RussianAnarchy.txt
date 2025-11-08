@@ -18,7 +18,92 @@ country_event = {
         }
         653 = { set_demilitarized_zone = no add_core_of = NSF}
         398 = { set_demilitarized_zone = no add_core_of = NSF}
-        573 = { set_demilitarized_zone = no add_core_of = NSF}  
-        
+        573 = { set_demilitarized_zone = no add_core_of = NSF}      
+    }
+}
+
+country_event = {
+    id = russianAnarchy.300000000
+    title = russianAnarchy.300000000.t
+    desc = russianAnarchy.300000000.desc
+    picture = GFX_report_event_military_planning
+
+    is_triggered_only = yes
+
+    option = {
+        name = russianAnarchy.300000000.a
+        CLR = {
+            transfer_state = 250
+            transfer_state = 251
+            transfer_state = 401
+        }
+        250 = { set_demilitarized_zone = no add_core_of = CLR}
+        251 = { set_demilitarized_zone = no add_core_of = CLR}
+        401 = { set_demilitarized_zone = no add_core_of = CLR}      
+
+        TRR = {
+            transfer_state = 874
+        }
+        874 = {set_demilitarized_zone = no add_core_of = TRR}
+
+        IGI = {
+            transfer_state = 564
+            transfer_state = 566 
+        }
+        564 = {set_demilitarized_zone = no add_core_of = IGI}
+        566 = {set_demilitarized_zone = no add_core_of = IGI}
+
+        TND = {
+            transfer_state = 262
+            transfer_state = 825
+        }
+        262 = {set_demilitarized_zone = no add_core_of = TND}
+        825 = {set_demilitarized_zone = no add_core_of = TND}
+
+        FSR = {
+            transfer_state = 570 
+            transfer_state = 578
+        }
+        570 = {set_demilitarized_zone = no add_core_of = FSR}
+        578 = {set_demilitarized_zone = no add_core_of = FSR}
+    }
+}
+
+country_event = {
+    id = russianAnarchy.3000000000
+    title = russianAnarchy.3000000000.t
+    desc = russianAnarchy.3000000000.desc
+    picture = GFX_report_event_military_planning
+
+    is_triggered_only = yes
+
+    option = {
+        name = russianAnarchy.3000000000.a
+        TAT = {
+            transfer_state = 249
+        }
+        249 = { set_demilitarized_zone = no }   
+
+        BSK = {
+            transfer_state = 651
+        }
+        651 = {set_demilitarized_zone = no }
+
+        ALT = {
+            transfer_state = 40
+            transfer_state = 654 
+        }
+        564 = {set_demilitarized_zone = no }
+        566 = {set_demilitarized_zone = no }
+
+        FER = {
+            transfer_state = 561
+        }
+        561 = {set_demilitarized_zone = no }
+
+        UDM = {
+            transfer_state = 399
+        }
+        399 = {set_demilitarized_zone = no}
     }
 }

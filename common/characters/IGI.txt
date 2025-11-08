@@ -1,0 +1,18 @@
+characters = {
+    IGI_Anton_Denikin = {
+        name = IGI_Anton_Denikin_L
+        portraits = {
+            civilian = {
+                large = GFX_Anton_Denikin
+            }
+        }
+        country_leader = {
+            ideology = despotism
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

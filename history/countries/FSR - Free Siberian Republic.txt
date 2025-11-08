@@ -1,5 +1,7 @@
 capital = 570
 
+recruit_character = FSR_Grigory_Semenov
+
 add_ideas = {
 
 }

@@ -1,5 +1,7 @@
 capital = 653
 
+recruit_character = NSF_Mikhail_Tukhachevsky
+
 add_ideas = {
 
 }

@@ -1,0 +1,18 @@
+characters = {
+    CLR_Andrey_Vlasov = {
+        name = CLR_Andrey_Vlasov_L
+        portraits = {
+            civilian = {
+                large = GFX_Andrey_Vlasov
+            }
+        }
+        country_leader = {
+            ideology = fascism_ideology
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

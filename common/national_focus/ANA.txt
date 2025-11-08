@@ -15,7 +15,7 @@ focus_tree = {
 		id = ANA_TheLightOfHope
 		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
 		allow_branch = { 
-			NOT = { has_country_flag = ANA_fire_completed }
+			has_country_flag = ANA_focus_unlocked
 		}		
 		x = 14
 		y = 0
@@ -30,13 +30,13 @@ focus_tree = {
         relative_position_id = ANA_TheLightOfHope
 		icon = GFX_SOV_claims_in_baltic_ccp_2d_sov_compatibility
 		allow_branch = { 
-			NOT = { has_country_flag = ANA_fire_completed }
+			has_country_flag = ANA_focus_unlocked
 		}		
 		x = 0
 		y = 1
 		cost = 4
 		completion_reward = {
-			add_stability = 0.2
+			country_event = { id = russianAnarchy.300000000 }
 		}
 	}
 	focus = {
@@ -44,13 +44,14 @@ focus_tree = {
 		prerequisite = {focus = ANA_LotsOfPlayers}
 		relative_position_id = ANA_LotsOfPlayers
 		icon = GFX_SOV_coup_detat_ccp_2d_sov_compatibility
+		allow_branch = { 
+			has_country_flag = ANA_focus_unlocked
+		}
 		x = 0
 		y = 1
 		cost = 4
 		completion_reward = {
-			country_event = { id = ANAakhstan.300}
-        	set_country_flag = ANA_fire_completed
-        	set_country_flag = new_branch_unlocked
+			country_event = { id = russianAnarchy.3000000000}
 		}
 	}
 }

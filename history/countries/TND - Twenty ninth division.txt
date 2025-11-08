@@ -1,5 +1,7 @@
 capital = 825
 
+recruit_character = TND_Bronislaw_Kaminsky
+
 add_ideas = {
 
 }

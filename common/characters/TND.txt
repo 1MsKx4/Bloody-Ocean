@@ -1,0 +1,18 @@
+characters = {
+    TND_Bronislaw_Kaminsky = {
+        name = TND_Bronislaw_Kaminsky_L
+        portraits = {
+            civilian = {
+                large = GFX_Bronislaw_Kaminsky
+            }
+        }
+        country_leader = {
+            ideology = gerNatSoc
+        }
+        expire = "1990.1.1"
+        id = -1
+        traits = {
+
+	    }
+    }
+}

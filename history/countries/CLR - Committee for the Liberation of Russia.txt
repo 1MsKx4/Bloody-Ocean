@@ -1,5 +1,7 @@
 capital = 251
 
+recruit_character = CLR_Andrey_Vlasov
+
 add_ideas = {
 
 }
