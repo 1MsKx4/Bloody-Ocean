@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = conservatism
+            ideology = testCon
         }
         expire = "1990.1.1"
         id = -1

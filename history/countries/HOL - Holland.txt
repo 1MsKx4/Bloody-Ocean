@@ -116,7 +116,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	add_ideas = {
-		HOL_aloof_neutrality
+		HOL_aloof_despotism
 		HOL_shell_shocked_spectator_5
 		HOL_de_crisisjaren_5
 		HOL_weak_government
@@ -285,13 +285,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
+	liberalism = 93
 	fascism = 4
 	communism = 3
 }

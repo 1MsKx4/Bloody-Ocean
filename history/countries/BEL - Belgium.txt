@@ -176,29 +176,29 @@ IF = {
 
 ## Earned NS's
 
-# Neutrality
-set_variable = { BEL_neutrality_production_speed_buildings_factor = 0.1 }
-set_variable = { BEL_neutrality_production_speed_arms_factory_factor = 0 }
-set_variable = { BEL_neutrality_production_speed_infrastructure_factor = 0 }
-set_variable = { BEL_neutrality_production_speed_industrial_complex_factor = 0 }
-set_variable = { BEL_neutrality_join_faction_tension = 1 }
-set_variable = { BEL_neutrality_justify_war_goal_time = 1 }
-set_variable = { BEL_neutrality_guarantee_tension = 1 }
-set_variable = { BEL_neutrality_enemy_justify_war_goal_time = 0 }
-set_variable = { BEL_neutrality_send_volunteers_tension = 0 }
-set_variable = { BEL_neutrality_lend_lease_tension = 0 }
-set_variable = { BEL_neutrality_embargo_threshold_factor = 0 }
+# despotism
+set_variable = { BEL_despotism_production_speed_buildings_factor = 0.1 }
+set_variable = { BEL_despotism_production_speed_arms_factory_factor = 0 }
+set_variable = { BEL_despotism_production_speed_infrastructure_factor = 0 }
+set_variable = { BEL_despotism_production_speed_industrial_complex_factor = 0 }
+set_variable = { BEL_despotism_join_faction_tension = 1 }
+set_variable = { BEL_despotism_justify_war_goal_time = 1 }
+set_variable = { BEL_despotism_guarantee_tension = 1 }
+set_variable = { BEL_despotism_enemy_justify_war_goal_time = 0 }
+set_variable = { BEL_despotism_send_volunteers_tension = 0 }
+set_variable = { BEL_despotism_lend_lease_tension = 0 }
+set_variable = { BEL_despotism_embargo_threshold_factor = 0 }
 
-# Defensive Neutrality
-set_variable = { BEL_defensive_neutrality_max_dig_in = 0 }
-set_variable = { BEL_defensive_neutrality_production_speed_bunker_factor = 0 } 
-set_variable = { BEL_defensive_neutrality_land_bunker_effectiveness_factor = 0 }
-set_variable = { BEL_defensive_neutrality_bunker_max_level_terrain_limit = 0 }
-set_variable = { BEL_defensive_neutrality_coastal_bunker_max_level_terrain_limit = 0 }
-set_variable = { BEL_defensive_neutrality_surrender_limit = 0 }
-set_variable = { BEL_defensive_neutrality_army_core_defence_factor = 0 }
-set_variable = { BEL_defensive_neutrality_training_time_factor = 0 }
-set_variable = { BEL_defensive_neutrality_mobilization_speed = 0 }
+# Defensive despotism
+set_variable = { BEL_defensive_despotism_max_dig_in = 0 }
+set_variable = { BEL_defensive_despotism_production_speed_bunker_factor = 0 } 
+set_variable = { BEL_defensive_despotism_land_bunker_effectiveness_factor = 0 }
+set_variable = { BEL_defensive_despotism_bunker_max_level_terrain_limit = 0 }
+set_variable = { BEL_defensive_despotism_coastal_bunker_max_level_terrain_limit = 0 }
+set_variable = { BEL_defensive_despotism_surrender_limit = 0 }
+set_variable = { BEL_defensive_despotism_army_core_defence_factor = 0 }
+set_variable = { BEL_defensive_despotism_training_time_factor = 0 }
+set_variable = { BEL_defensive_despotism_mobilization_speed = 0 }
 
 # Social Partners
 set_variable = { BEL_social_partners_industry_free_repair_factor = 0.1 }
@@ -437,7 +437,7 @@ IF = {
 		complete_national_focus = BEL_monetary_reconstruction
 		complete_national_focus = BEL_rebuild_wallonian_industry
 		complete_national_focus = BEL_gold_reserves
-		complete_national_focus = BEL_perpetual_neutrality
+		complete_national_focus = BEL_perpetual_despotism
 		complete_national_focus = BEL_independent_neutral_and_loyal
 		complete_national_focus = BEL_defense_bill
 		complete_national_focus = BEL_repudiate_treaty_with_france
@@ -448,7 +448,7 @@ IF = {
 		complete_national_focus = BEL_royal_intervention
 		complete_national_focus = BEL_paul_emile_janson # Usually taken by event
 		complete_national_focus = BEL_plan_de_man
-		complete_national_focus = BEL_defensive_neutrality
+		complete_national_focus = BEL_defensive_despotism
 		complete_national_focus = BEL_dyle_plan
 		complete_national_focus = BEL_economic_recovery
 		complete_national_focus = BEL_social_partners
@@ -488,9 +488,9 @@ IF = {
 		}
 
 		set_party_name = {
-			ideology = democratic
-			long_name = BEL_democratic_party_long
-			name = BEL_democratic_party
+			ideology = liberalism
+			long_name = BEL_liberalism_party_long
+			name = BEL_liberalism_party
 		}
 	}
 
@@ -585,27 +585,27 @@ IF = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
+	liberalism = 83
 	fascism = 11
 	communism = 6
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
+		liberalism = 87
 		fascism = 8
 		communism = 5
 	}

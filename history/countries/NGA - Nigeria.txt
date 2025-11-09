@@ -13,7 +13,7 @@ recruit_character = NGA_nccr
 recruit_character = NGA_fascist_guy
 recruit_character = NGA_coi
 recruit_character = NGA_ai2
-recruit_character = NGA_democratic_guy
+recruit_character = NGA_liberalism_guy
 recruit_character = NGA_ar
 recruit_character = NGA_acgs
 recruit_character = NGA_awt
@@ -76,14 +76,14 @@ recruit_character = NGA_communist_guy
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 5
-	neutrality = 50
+	despotism = 50
 }

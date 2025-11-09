@@ -22,10 +22,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
+	liberalism = 0
 	fascism = 80
 	communism = 0
-	neutrality = 20
+	despotism = 20
 }
 
 set_research_slots = 3

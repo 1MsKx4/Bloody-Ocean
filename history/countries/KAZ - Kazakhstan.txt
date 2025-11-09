@@ -85,10 +85,10 @@ if = {
 }
 
 set_popularities = {
-	democratic = 100
+	liberalism = 100
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -133,7 +133,7 @@ recruit_character = KAZ_nccr
 recruit_character = KAZ_fascist_guy
 recruit_character = KAZ_coi
 recruit_character = KAZ_ai2
-recruit_character = KAZ_democratic_guy
+recruit_character = KAZ_liberalism_guy
 recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
 

@@ -51,9 +51,9 @@ IF = {
 ### VARIABLES ###
 
 ### VARIABLES FOR POPULARITY ###
-set_variable = { PER_democratic_popularity = 20 }
+set_variable = { PER_liberalism_popularity = 20 }
 set_variable = { PER_communism_popularity = 5 }
-set_variable = { PER_neutrality_popularity = 60 }
+set_variable = { PER_despotism_popularity = 60 }
 set_variable = { PER_fascism_popularity = 15 }
 
 ### VARIABLES FOR AIRFORCE ###
@@ -107,7 +107,7 @@ set_variable = { PER_opposition_stability_factor = -0.1 }
 set_variable = { PER_opposition_conscription_factor = -0.05 }
 set_variable = { PER_opposition_fascism_drift = 0.02 }
 set_variable = { PER_opposition_communism_drift = 0.02 }
-set_variable = { PER_opposition_democratic_drift = 0.02 }
+set_variable = { PER_opposition_liberalism_drift = 0.02 }
 set_variable = { PER_army_core_defence_factor = 0 }
 set_variable = { PER_army_core_attack_factor = 0 }
 set_variable = { PER_fascist_militia_count = 4 }
@@ -342,14 +342,14 @@ IF = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = PER_democratic_popularity
+	liberalism = PER_liberalism_popularity
 	fascism = PER_fascism_popularity
 	communism = PER_communism_popularity
-	neutrality = PER_neutrality_popularity
+	despotism = PER_despotism_popularity
 }

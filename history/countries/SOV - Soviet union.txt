@@ -13,14 +13,14 @@ set_party_name = {
 	name = SOV_fascism_party_russian
 }
 set_party_name = {
-	ideology = democratic
-	long_name = SOV_democratic_party_russian_long
-	name = SOV_democratic_party_russian
+	ideology = liberalism
+	long_name = SOV_liberalism_party_russian_long
+	name = SOV_liberalism_party_russian
 }
 set_party_name = {
-	ideology = neutrality
-	long_name = SOV_neutrality_party_russian_long
-	name = SOV_neutrality_party_russian
+	ideology = despotism
+	long_name = SOV_despotism_party_russian_long
+	name = SOV_despotism_party_russian
 }
 set_party_name = {
 	ideology = communism
@@ -41,10 +41,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 2
+	liberalism = 2
 	fascism = 10
 	communism = 38
-	neutrality = 5
+	despotism = 5
 	socialism2 = 45
 }
 

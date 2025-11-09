@@ -15,7 +15,7 @@ recruit_character = BRM_acgs
 recruit_character = BRM_acr
 recruit_character = BRM_stc
 recruit_character = BRM_ncm
-recruit_character = BRM_democratic_guy
+recruit_character = BRM_liberalism_guy
 recruit_character = BRM_communist_guy
 recruit_character = BRM_coi
 recruit_character = BRM_pot
@@ -79,10 +79,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 2
+	liberalism = 2
 	fascism = 72
 	communism = 14
-	neutrality = 12
+	despotism = 12
 }
 
 recruit_character = BRM_archibald_cochrane

@@ -500,6 +500,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_oligarchism_group"
+		texturefile = "gfx/interface/ideologies/oligarchism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_libertarianism_group"
+		texturefile = "gfx/interface/ideologies/libertarianism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_natsoc_group"
 		texturefile = "gfx/interface/ideologies/natsoc_group.dds"
 	}
@@ -513,10 +533,15 @@ spriteTypes = {
 		name = "GFX_ideology_esotericism_group"
 		texturefile = "gfx/interface/ideologies/esotericism_group.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}
 	
 	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
 	}
 
 	spriteType = {

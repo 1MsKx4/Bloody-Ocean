@@ -45,14 +45,14 @@ set_party_name = {
 	name = GER_fascism_party_russian
 }
 set_party_name = {
-	ideology = democratic
-	long_name = GER_democratic_party_russian_long
-	name = GER_democratic_party_russian
+	ideology = liberalism
+	long_name = GER_liberalism_party_russian_long
+	name = GER_liberalism_party_russian
 }
 set_party_name = {
-	ideology = neutrality
-	long_name = GER_neutrality_party_russian_long
-	name = GER_neutrality_party_russian
+	ideology = despotism
+	long_name = GER_despotism_party_russian_long
+	name = GER_despotism_party_russian
 }
 set_party_name = {
 	ideology = communism
@@ -80,7 +80,7 @@ set_politics = {
 set_popularities = {
 	fascism = 30
 	esotericism = 2
-	neutrality = 8
+	despotism = 8
 	natsoc = 60
 }
 

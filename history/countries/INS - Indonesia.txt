@@ -55,10 +55,10 @@ if = {
 
 set_convoys = 25
 set_popularities = {
-	democratic = 5
+	liberalism = 5
 	fascism = 70
 	communism = 5
-	neutrality = 20
+	despotism = 20
 }
 
 

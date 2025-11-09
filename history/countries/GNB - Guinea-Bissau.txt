@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 10
 
-recruit_character = GNB_democratic_guy
+recruit_character = GNB_liberalism_guy
 recruit_character = GNB_mt
 recruit_character = GNB_acgs
 recruit_character = GNB_coi
@@ -82,8 +82,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 50
-	neutrality = 5
+	despotism = 5
 }

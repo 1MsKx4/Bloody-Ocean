@@ -2,14 +2,14 @@
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	liberalism = 10
 	fascism = 10
 	communism = 20
-	neutrality = 60
+	despotism = 60
 }

@@ -95,10 +95,10 @@ set_politics = {
 }
 
 set_popularities = { #popularities based on 1933 election statistics.
-	democratic = 22
+	liberalism = 22
 	fascism = 62
 	communism = 6
-	neutrality = 10
+	despotism = 10
 }
 
 create_country_leader = {

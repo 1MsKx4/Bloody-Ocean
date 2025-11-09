@@ -15,14 +15,14 @@ set_party_name = {
 	name = FRF_fascism_party_russian
 }
 set_party_name = {
-	ideology = democratic
-	long_name = FRF_democratic_party_russian_long
-	name = FRF_democratic_party_russian
+	ideology = liberalism
+	long_name = FRF_liberalism_party_russian_long
+	name = FRF_liberalism_party_russian
 }
 set_party_name = {
-	ideology = neutrality
-	long_name = FRF_neutrality_party_russian_long
-	name = FRF_neutrality_party_russian
+	ideology = despotism
+	long_name = FRF_despotism_party_russian_long
+	name = FRF_despotism_party_russian
 }
 set_party_name = {
 	ideology = communism
@@ -41,15 +41,15 @@ set_party_name = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 87
+	liberalism = 87
 	fascism = 3
-    neutrality = 4
+    despotism = 4
     communism = 3
     socialism2 = 3
 }

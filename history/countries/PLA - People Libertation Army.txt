@@ -15,14 +15,14 @@ set_party_name = {
 	name = PLA_fascism_party_russian
 }
 set_party_name = {
-	ideology = democratic
-	long_name = PLA_democratic_party_russian_long
-	name = PLA_democratic_party_russian
+	ideology = liberalism
+	long_name = PLA_liberalism_party_russian_long
+	name = PLA_liberalism_party_russian
 }
 set_party_name = {
-	ideology = neutrality
-	long_name = PLA_neutrality_party_russian_long
-	name = PLA_neutrality_party_russian
+	ideology = despotism
+	long_name = PLA_despotism_party_russian_long
+	name = PLA_despotism_party_russian
 }
 set_party_name = {
 	ideology = communism

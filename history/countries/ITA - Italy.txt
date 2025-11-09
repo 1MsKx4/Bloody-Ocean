@@ -22,10 +22,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	liberalism = 5
 	fascism = 65
 	communism = 5
-	neutrality = 25
+	despotism = 25
 }
 
 set_autonomy = {

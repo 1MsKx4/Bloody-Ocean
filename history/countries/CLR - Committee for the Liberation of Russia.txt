@@ -14,8 +14,8 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 68
-	neutrality = 27
-	democratic = 5
+	despotism = 27
+	liberalism = 5
 }
 
 oob = "CLR_1943"

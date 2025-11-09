@@ -43,15 +43,15 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
+	liberalism = 60
 	communism = 15
-	neutrality = 10
+	despotism = 10
 	fascism = 15
 }
 

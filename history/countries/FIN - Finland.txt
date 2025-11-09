@@ -175,9 +175,9 @@ set_research_slots = 3
 store_core_states_on_game_start = yes
 #Set Kokoomus as Non-Aligned party
 set_party_name = {
-	ideology = neutrality
-	name = FIN_neutrality_party_kokoomus
-	long_name = FIN_neutrality_party_kokoomus_long
+	ideology = despotism
+	name = FIN_despotism_party_kokoomus
+	long_name = FIN_despotism_party_kokoomus_long
 }
 
 recruit_character = FIN_pehr_evind_svinhufvud
@@ -288,7 +288,7 @@ recruit_character = FIN_esko_riekki
 recruit_character = FIN_elias_simojoki
 recruit_character = FIN_ilmari_kianto
 recruit_character = FIN_miina_sillanpaa
-recruit_character = FIN_karl_august_fagerholm #Democratic Reformer
+recruit_character = FIN_karl_august_fagerholm #liberalism Reformer
 
 if = {
 	limit = {
@@ -528,7 +528,7 @@ set_convoys = 5
 	
 	### FOCUS TREE ###
 	#1936
-	complete_national_focus = FIN_finnish_neutrality
+	complete_national_focus = FIN_finnish_despotism
 	complete_national_focus = FIN_enhance_southern_infrastructure
 	unlock_national_focus = FIN_industrial_development #Timed idea should be gone
 	unlock_national_focus = FIN_vaisala_radiosonde_tests #35 #tech bonus should be consumed
@@ -585,9 +585,9 @@ set_convoys = 5
 	retire_country_leader = yes
 	#Set Maalaisliitto (Agrarian League) as Non-Aligned party
 	set_party_name = {
-		ideology = neutrality
-		name = FIN_neutrality_party
-		long_name = FIN_neutrality_party_long
+		ideology = despotism
+		name = FIN_despotism_party
+		long_name = FIN_despotism_party_long
 	}
 
 	oob = "FIN_1939"
@@ -610,16 +610,16 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1931.3.2" #Represents Presidential elections (Country leader is President of the Republic, not Prime Minister)
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 19
 	communism = 1
-	neutrality = 65
+	despotism = 65
 }
 add_stability = -0.1
 
@@ -629,16 +629,16 @@ country_event = { id = AAT_finland_political.02 days = 426 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1937.3.1" #Represents Presidential elections (Country leader is President of the Republic, not Prime Minister)
 		election_frequency = 72
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 4
+		liberalism = 4
 		fascism = 15
 		communism = 1
-		neutrality = 80
+		despotism = 80
 	}
 }
 

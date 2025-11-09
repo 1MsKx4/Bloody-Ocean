@@ -198,17 +198,17 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
+	liberalism = 50
 	fascism = 5
 	communism = 35
-	neutrality = 10
+	despotism = 10
 }
 
 recruit_character = SIL_jozsef_kozdon

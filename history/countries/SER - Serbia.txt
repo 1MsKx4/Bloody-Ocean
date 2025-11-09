@@ -7,10 +7,10 @@ set_research_slots = 3
 set_convoys = 0
 
 set_popularities = {
-	democratic = 20
+	liberalism = 20
 	fascism = 75
 	communism = 5
-	neutrality = 0
+	despotism = 0
 }
 
 1939.1.1 = {

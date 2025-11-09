@@ -136,7 +136,7 @@ IF = {
 		complete_national_focus = ICE_expand_the_fishing_industry
 		complete_national_focus = ICE_the_kingdom_of_iceland
 		complete_national_focus = ICE_hydroelectric_power
-		complete_national_focus = ICE_declare_absolute_neutrality
+		complete_national_focus = ICE_declare_absolute_despotism
 		complete_national_focus = ICE_infrastructure_projects
 		complete_national_focus = ICE_gardhur_airfield
 		complete_national_focus = ICE_the_icelandic_police_force
@@ -244,29 +244,29 @@ set_convoys = 30
 set_stability = 0.65
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
+	liberalism = 96
 	fascism = 2
 	communism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 84
+		liberalism = 84
 		fascism = 2
 		communism = 2
-		neutrality = 12
+		despotism = 12
 	}
 }
 

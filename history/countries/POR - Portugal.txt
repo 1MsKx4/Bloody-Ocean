@@ -204,7 +204,7 @@ if = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -212,19 +212,19 @@ set_politics = {
 set_popularities = {
 	fascism = 10
 	communism = 10
-	neutrality = 60
-	democratic = 20
+	despotism = 60
+	liberalism = 20
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		neutrality = 100
+		despotism = 100
 	}
 }
 

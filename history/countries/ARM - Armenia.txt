@@ -89,7 +89,7 @@ if = {
 
 set_popularities = {
 	fascism = 34
-	democratic = 30
+	liberalism = 30
 	communism = 36
 }
 

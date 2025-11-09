@@ -14,7 +14,7 @@ set_politics = {
 }
 set_popularities = {
 	natsoc = 88
-	neutrality = 2
+	despotism = 2
     fascism = 10
 }
 

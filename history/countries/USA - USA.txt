@@ -19,18 +19,19 @@ add_to_faction = SAF
 add_to_faction = SCO
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.11.8"
+	ruling_party = conservatism
+	last_election = "1942.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 62 
-	neutrality = 17
-	socialism2 = 8
+	conservatism = 48 
+	liberalism = 25
+	libertarianism = 6
+	despotism = 7
+	socialism2 = 7
 	communism = 5
-	esotericism = 2
-	fascism = 6
+	fascism = 2
 }
 
 recruit_character = USA_Douglas_MacArthur

@@ -105,10 +105,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 60
 	communism = 15
-	neutrality = 10
+	despotism = 10
 }
 
 recruit_character = AOI_prince_amedeo 
