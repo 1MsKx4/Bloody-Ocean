@@ -2,9 +2,9 @@
 state={
 	id=267
 	name="STATE_267" # Kabul
-	manpower = 1976110
+	manpower = 1176110
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
 		tungsten=3 # was: 3
@@ -13,20 +13,22 @@ state={
 
 	}
 	history={
-		owner = AFG
+		set_demilitarized_zone = yes
+		owner = ACM
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1  
 		}
 		victory_points = {
-			10737 5 
+
 		}
+		add_core_of = ACM
 		add_core_of = AFG
 	}
 
 	provinces={
-		7916 7984 10737 10852 12769 
+		7916 7984 10852 12769 13386 13387 13388 13389 13390 13391 13409 13410
 	}
 
 	local_supplies=0.0 

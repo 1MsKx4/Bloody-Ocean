@@ -11,6 +11,7 @@ state = {
 	history = {
 
 		owner = PER
+		add_core_of = IRR
 		add_core_of = PER
 
 		victory_points = {

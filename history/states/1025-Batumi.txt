@@ -1,0 +1,26 @@
+state={
+	id=1025
+	name="STATE_1025"
+	manpower = 101300
+	
+	state_category = town
+
+	history={
+
+		victory_points = {
+			3653 3
+		}
+		owner = GEO
+		buildings = {
+			infrastructure = 4
+            air_base = 6
+		}
+		add_core_of = GEO
+	}
+
+	provinces={
+		3653
+	}
+
+	local_supplies=0.0 
+}

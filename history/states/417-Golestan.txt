@@ -21,6 +21,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		add_core_of = IRR
 		add_core_of = PER
 	}
 

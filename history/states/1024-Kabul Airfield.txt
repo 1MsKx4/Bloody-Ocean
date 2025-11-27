@@ -1,0 +1,28 @@
+state={
+	id=1024
+	name="STATE_1024"
+	manpower = 450
+	
+	state_category = town
+
+	history={
+
+		victory_points = {
+			13411 3
+		}
+		owner = BRF
+		buildings = {
+			infrastructure = 4
+            air_base = 6
+		}
+		add_core_of = BRF
+		add_core_of = ACM
+		add_core_of = AFG
+	}
+
+	provinces={
+		13411
+	}
+
+	local_supplies=0.0 
+}

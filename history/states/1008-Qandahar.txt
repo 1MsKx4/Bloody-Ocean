@@ -4,13 +4,15 @@ state={
 	manpower = 562330
 	state_category = rural
 	provinces={
-		4949 5020 5064 8090 10789 
+		5064 8090 10789 
 	}
 	history={
-		owner = AFG
+		set_demilitarized_zone = yes
+		owner = ACM
 		buildings = {
 			infrastructure = 1 
 		}
+		add_core_of = ACM
 		add_core_of = AFG
 		victory_points = {
 			5064 1 

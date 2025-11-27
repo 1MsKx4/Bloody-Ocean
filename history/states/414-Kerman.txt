@@ -14,6 +14,7 @@ state={
 		victory_points = {
 			10913 1 
 		}
+		add_core_of = IRR
 		add_core_of = PER
 	}
 

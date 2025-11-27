@@ -171,10 +171,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
 12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
 5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
@@ -224,7 +220,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10852;7584;impassable;-1;-1;-1;-1;-1;;North Afghanistan
 10852;12248;impassable;-1;-1;-1;-1;-1;;North Afghanistan
 12877;7584;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-10781;12248;impassable;-1;-1;-1;-1;-1;;North Afghanistan
 10781;12314;impassable;-1;-1;-1;-1;-1;;North Afghanistan
 10789;7916;impassable;-1;-1;-1;-1;-1;;South Afghanistan
 10789;1995;impassable;-1;-1;-1;-1;-1;;South Afghanistan
@@ -232,7 +227,43 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5064;2078;impassable;-1;-1;-1;-1;-1;;South Afghanistan
 1421;10184;sea;2899;-1;-1;-1;-1;;Sulu-Mindanao
 5864;5838;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
--1;-1;;-1;-1;-1;-1;-1;-1 
-#Start province ID;End province ID;Adjacency type;Through province ID;Starting X position;Starting Y position;Ending X position;Ending Y position;Adjacency rule;Comment
 
-
+10737;7916;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+10737;12769;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13381;12769;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+10852;13386;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+10852;12877;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13410;13386;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13410;12877;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7984;13387;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7916;13387;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7916;13388;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7916;13389;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13409;13389;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12769;13388;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12769;13389;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7984;12877;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7984;10896;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+7984;1995;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+10896;7448;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12769;13416;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12769;13419;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12769;13422;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12314;13393;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12314;13392;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12248;13390;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+12248;13392;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13387;13391;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+13386;13391;impassable;-1;-1;-1;-1;-1;;North Afghanistan
+10417;13399;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+10417;13401;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+10417;13403;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;13402;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;13403;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+13403;8027;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+13407;10781;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;13406;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12218;13406;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12218;13404;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12218;13405;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7916;13386;impassable;-1;-1;-1;-1;-1;;stalinabad mountains

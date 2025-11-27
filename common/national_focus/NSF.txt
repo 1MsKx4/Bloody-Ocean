@@ -15,11 +15,7 @@ focus_tree = {
 		id = NSF_RebuildTheIndustry
 		icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
 
-        allow_branch = { 
-			NOT = { has_country_flag = NSF_Siberia_unlocked }
-		}	
-
-		x = 30
+		x = 36
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -91,7 +87,7 @@ focus_tree = {
 
 
 	focus = {
-        id = NSF_AtWork...
+        id = NSF_ZlatoustPlant
         prerequisite = {focus = NSF_LaunchNewMilitaryFactories}
         relative_position_id = NSF_LaunchNewMilitaryFactories
         icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
@@ -103,7 +99,7 @@ focus_tree = {
         }
     }
 	focus = {
-        id = NSF_AtWork?..
+        id = NSF_TukhachevskyPlant
         prerequisite = {focus = NSF_LaunchNewMilitaryFactories}
         relative_position_id = NSF_LaunchNewMilitaryFactories
         icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
@@ -115,10 +111,10 @@ focus_tree = {
         }
     }
 	focus = {
-        id = NSF_AtWork.?.
-        prerequisite = {focus =  NSF_AtWork...}
-        prerequisite = {focus =  NSF_AtWork?..}
-        relative_position_id = NSF_AtWork?..
+        id = NSF_PermTankFactory
+        prerequisite = {focus =  NSF_ZlatoustPlant}
+        prerequisite = {focus =  NSF_TukhachevskyPlant}
+        relative_position_id = NSF_TukhachevskyPlant
         icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
         x = 0
         y = 1
@@ -131,7 +127,7 @@ focus_tree = {
 
 
 	focus = {
-        id = NSF_AtWork..?
+        id = NSF_PermTextileFactory
         prerequisite = {focus = NSF_EveryoneToTheFactory}
         relative_position_id = NSF_EveryoneToTheFactory
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
@@ -143,7 +139,7 @@ focus_tree = {
         }
     }
 	focus = {
-        id = NSF_AtWork??.
+        id = NSF_TukhachevskyMeatProcessingPlant
         prerequisite = {focus = NSF_EveryoneToTheFactory}
         relative_position_id = NSF_EveryoneToTheFactory
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
@@ -155,10 +151,10 @@ focus_tree = {
         }
     }
 	focus = {
-        id = NSF_AtWork.??
-        prerequisite = {focus = NSF_AtWork??.}
-        prerequisite = {focus = NSF_AtWork..?}
-        relative_position_id = NSF_AtWork??.
+        id = NSF_MetallurgyOfZlatoust
+        prerequisite = {focus = NSF_TukhachevskyMeatProcessingPlant}
+        prerequisite = {focus = NSF_PermTextileFactory}
+        relative_position_id = NSF_TukhachevskyMeatProcessingPlant
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility
         x = 0
         y = 1
@@ -171,7 +167,7 @@ focus_tree = {
 
 
 	focus = {
-        id = NSF_AtWork???
+        id = NSF_PermTukhachevskHigway
         prerequisite = {focus = NSF_NewRoads}
         relative_position_id = NSF_NewRoads
         icon = GFX_goal_generic_construct_infrastructure
@@ -183,9 +179,9 @@ focus_tree = {
         }
     }
 	focus = {
-        id = NSF_AtWork
-        prerequisite = {focus = NSF_AtWork???}
-        relative_position_id = NSF_AtWork???
+        id = NSF_MountainRoads
+        prerequisite = {focus = NSF_PermTukhachevskHigway}
+        relative_position_id = NSF_PermTukhachevskHigway
         icon = GFX_goal_generic_construct_infrastructure
         x = 0
         y = 1
@@ -196,10 +192,10 @@ focus_tree = {
     }
 	focus = {
         id = NSF_AtWork.
-        prerequisite = {focus = NSF_AtWork}
-        prerequisite = {focus = NSF_AtWork.?.}
-        prerequisite = {focus = NSF_AtWork.??}
-        relative_position_id = NSF_AtWork
+        prerequisite = {focus = NSF_MountainRoads}
+        prerequisite = {focus = NSF_PermTankFactory}
+        prerequisite = {focus = NSF_MetallurgyOfZlatoust}
+        relative_position_id = NSF_MountainRoads
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility
         x = 0
         y = 1
@@ -214,10 +210,6 @@ focus_tree = {
 	focus = {
         id = NSF_LegacyOfA
         icon = GFX_SOV_return_of_the_rocor_ccp_2d_sov_compatibility
-
-        allow_branch = { 
-			NOT =  {has_country_flag = NSF_Siberia_unlocked }
-		}	
 
         x = 15
         y = 0
@@ -374,7 +366,7 @@ focus_tree = {
 
 
 	focus = {
-        id = NSF_TakeIntoAccountTheMistakesOfThePast
+        id = NSF_TakeIntoAccountTheMistakesOfThePastTRO
         icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
         prerequisite = { focus = NSF_EachWorkerHasAGrenadeTRO focus = NSF_EachFamilyHasATankTRO}
         relative_position_id = NSF_EachWorkerHasAGrenadeTRO
@@ -507,7 +499,7 @@ focus_tree = {
 
 
 	focus = {
-        id = NSF_TakeIntoAccountTheMistakesOfThePastTRO
+        id = NSF_TakeIntoAccountTheMistakesOfThePast
         icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
         prerequisite = { focus = NSF_EachWorkerHasAGrenade focus = NSF_EachFamilyHasATank}
         relative_position_id = NSF_EachWorkerHasAGrenade
@@ -526,7 +518,7 @@ focus_tree = {
         prerequisite = { focus = NSF_TakeIntoAccountTheMistakesOfThePast focus = NSF_TakeIntoAccountTheMistakesOfThePastTRO}
         prerequisite = { focus = NSF_AtWork. }
         relative_position_id = NSF_TakeIntoAccountTheMistakesOfThePast
-        x = 11
+        x = 17
         y = 1
         cost = 10
         completion_reward = {
@@ -891,7 +883,7 @@ focus_tree = {
 
 
 	focus = {
-        id = TakeALookAtSiberia 
+        id = NSF_TakeALookAtSiberia 
         icon = GFX_SOV_japanese_overtures_ccp_2d_sov_compatibility
         prerequisite = { focus = NSF_ProclaimVictoryTND }
         prerequisite = { focus = NSF_ProclaimVictoryCLR }
@@ -924,8 +916,8 @@ focus_tree = {
 			has_country_flag = NSF_Siberia_unlocked
 		}	
 
-        x = 34
-        y = 0
+        x = 22
+        y = 9
         cost = 10
         completion_reward = {
 
@@ -1193,7 +1185,7 @@ focus_tree = {
 
 
 	focus = {
-        id = LastBrick
+        id = NSF_LastBrick
         prerequisite = {focus = NSF_AtWork.??????????????????????????.AFT}
         prerequisite = {focus = NSF_AtWork........AFT}
         prerequisite = {focus = NSF_AtWork.????????????????????????.AFT}
@@ -1217,8 +1209,95 @@ focus_tree = {
 			has_country_flag = NSF_Siberia_unlocked
 		}	
 
-        x = 16
-        y = 0
+        x = 10
+        y = 9
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = DidTheyRefuse
+        icon = GFX_SOV_reinstitute_the_mestnichestvo_ccp_2d_sov_compatibility
+        prerequisite = { focus = InviteThemToSurrender }
+        relative_position_id = InviteThemToSurrender
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_WeWillNotTolerateSuchDisrespect
+        icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+        prerequisite = { focus = DidTheyRefuse }
+        relative_position_id = DidTheyRefuse
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_RepareTheCannons
+        icon = GFX_focus_SWE_let_fly_all_guns
+        prerequisite = { focus = NSF_WeWillNotTolerateSuchDisrespect }
+        relative_position_id = NSF_WeWillNotTolerateSuchDisrespect
+        x = -2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_RaiseAviation
+        icon = GFX_focus_SWE_marauder_bombers
+        prerequisite = { focus = NSF_WeWillNotTolerateSuchDisrespect }
+        relative_position_id = NSF_WeWillNotTolerateSuchDisrespect
+        x = 2
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_BringArmyToTheBorders
+        icon = GFX_focus_SOV_mobilization_plan
+        prerequisite = { focus = NSF_WeWillNotTolerateSuchDisrespect }
+        relative_position_id = NSF_WeWillNotTolerateSuchDisrespect
+        x = 0
+        y = 2
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_FullCombatReadliness
+        icon = GFX_focus_SWE_refuge_for_revolutionaries
+        prerequisite = { focus = NSF_BringArmyToTheBorders }
+        prerequisite = { focus = NSF_RaiseAviation }
+        prerequisite = { focus = NSF_RepareTheCannons }
+        relative_position_id = NSF_BringArmyToTheBorders
+        x = 0
+        y = 1
+        cost = 10
+        completion_reward = {
+
+		}	
+    }
+	focus = {
+        id = NSF_Forward
+        icon = GFX_focus_GER_the_peoples_victory
+        prerequisite = { focus = NSF_FullCombatReadliness }
+        prerequisite = { focus = NSF_LastBrick }
+        relative_position_id = NSF_FullCombatReadliness
+        x = 6
+        y = 1
         cost = 10
         completion_reward = {
 

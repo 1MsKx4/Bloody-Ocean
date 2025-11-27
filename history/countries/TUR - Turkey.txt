@@ -14,6 +14,10 @@ set_autonomy = {
 	target = LEB
 	autonomous_state = autonomy_puppet
 }
+set_autonomy = {
+	target = NCP
+	autonomous_state = autonomy_puppet
+}
 
 set_convoys = 100
 

@@ -12,12 +12,13 @@ state={
 		7448 7584 10896 12248 12877 
 	}
 	history={
-		owner = AFG
+		set_demilitarized_zone = yes
+		owner = ACM
 		buildings = {
 			infrastructure = 1 
 		}
 		add_core_of = AFG
-		add_core_of = TMS
+		add_core_of = ACM
 		victory_points = {
 			12248 1
 		}

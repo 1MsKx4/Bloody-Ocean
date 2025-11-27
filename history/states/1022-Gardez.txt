@@ -1,0 +1,30 @@
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 92450
+	
+	state_category = town
+
+	history={
+
+		victory_points = {
+			13384 4
+		}
+		owner = BRF
+		buildings = {
+			infrastructure = 4
+            arms_factory = 2
+            industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = BRF
+		add_core_of = ACM
+		add_core_of = AFG
+	}
+
+	provinces={
+		13384
+	}
+
+	local_supplies=0.0 
+}

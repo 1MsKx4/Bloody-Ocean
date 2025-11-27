@@ -2,6 +2,38 @@ SOV_FLOPPA = {
     color = rgb { 100 10 10 }
     color_ui = rgb { 100 10 10 }
 }
+SOV_GEO = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_AZR = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }	
+}
+SOV_FER = {
+	color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_KAZ = {
+	color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_TAJ = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_KAR = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_TAT = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
+SOV_KOM = {
+    color = rgb { 145 35 45 }
+    color_ui = rgb { 145 35 45 }
+}
 
 MAL_UK = {
     color = rgb { 201 56 93 }

@@ -8,13 +8,14 @@ state={
 	}
 
 	provinces={
-		2017 2062 2078 1948 2101
+		2017 2062 2078 1948
 	}
 	history={
-		owner = AFG
+		owner = ACM
 		buildings = {
 			infrastructure = 0
 		}
+		add_core_of = ACM
 		add_core_of = AFG
 		victory_points = {
 			2017 1

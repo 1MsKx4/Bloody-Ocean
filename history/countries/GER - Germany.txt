@@ -133,10 +133,6 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 set_autonomy = {
-	target = RKH
-	autonomous_state = protectorat
-}
-set_autonomy = {
 	target = RKK
 	autonomous_state = autonomy_puppet
 }
