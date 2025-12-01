@@ -1,5 +1,20 @@
 ﻿capital = 202 # Kiev
 
+if = {
+	limit = {
+		has_start_date < 1943.03.03
+	}
+
+	declare_war_on = {
+		target = SOV
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SOP
+		type = annex_everything
+	}
+}
+
 oob = "RKU_1943"
 
 set_stability = 0.4

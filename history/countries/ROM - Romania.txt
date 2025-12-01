@@ -1,5 +1,7 @@
 ﻿capital = 46
 
+add_ai_strategy = { type = alliance id = GER value = 200 }
+
 set_convoys = 20
 
 oob = "ROM_1943"

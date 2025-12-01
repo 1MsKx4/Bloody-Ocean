@@ -38,11 +38,13 @@ country_event = {
     }
 }
 
+
+
 country_event = {
     id = soviet.4000000
     title = soviet.4000000.t
     desc = soviet.4000000.desc
-    picture = GFX_report_event_military_planning
+    picture = GFX_SOV_ANARCHY1
 
     trigger = {
         tag = SOV
@@ -109,6 +111,7 @@ country_event = {
 
     option = {
         name = soviet.40000000.a
+
         ANA = { set_country_flag = ANA_focus_unlocked }
 		ANA = { change_tag_from = SOV }
         ANA = {
@@ -127,37 +130,7 @@ country_event = {
             transfer_state = 653
             transfer_state = 654
         }
-        KAZ = {
-            transfer_state = 402
-            transfer_state = 404
-            transfer_state = 406
-            transfer_state = 407
-            transfer_state = 583
-            transfer_state = 586
-            transfer_state = 587
-            transfer_state = 588
-            transfer_state = 589
-            transfer_state = 590
-            transfer_state = 881
-            transfer_state = 882
-        }
-        KYR = {
-            transfer_state = 732
-        }
-        UZB = {
-            transfer_state = 405
-            transfer_state = 585
-            transfer_state = 823
-            transfer_state = 830
-            transfer_state = 831
-        }
-        TAJ = {
-            transfer_state = 742
-        }
-        TMS = {
-            transfer_state = 584
-            transfer_state = 832
-        }
+
         40 = { set_demilitarized_zone = yes }
         403 = { set_demilitarized_zone = yes }
         563 = { set_demilitarized_zone = yes }
@@ -191,15 +164,15 @@ country_event = {
         NOT = { has_country_flag = soviet_event_400000000_done } 
     }
 
-    immediate = {      
+    immediate = {   
         FIN = { transfer_state = 213 transfer_state = 215 transfer_state = 216 }
         RKO = { transfer_state = 204 transfer_state = 206 transfer_state = 207 transfer_state = 241 transfer_state = 242 transfer_state = 243 }
         RKK = { transfer_state = 229 transfer_state = 231 transfer_state = 232 transfer_state = 233 transfer_state = 234 transfer_state = 235 transfer_state = 236 transfer_state = 237 transfer_state = 238 transfer_state = 821 transfer_state = 826 transfer_state = 827 transfer_state = 828 }
-        TUR = { transfer_state = 230 }
-        RKU = { transfer_state = 193 transfer_state = 197 transfer_state = 198 transfer_state = 199 transfer_state = 200 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 217 transfer_state = 218 transfer_state = 220 transfer_state = 221 transfer_state = 225 transfer_state = 226 transfer_state = 227 transfer_state = 228 transfer_state = 245 transfer_state = 259 transfer_state = 260 transfer_state = 265 transfer_state = 829 }
+        TUR = { transfer_state = 1025  transfer_state = 230 }
+        RKU = { transfer_state = 193 transfer_state = 197 transfer_state = 198 transfer_state = 199 transfer_state = 200 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 217 transfer_state = 218 transfer_state = 220 transfer_state = 221 transfer_state = 225 transfer_state = 226 transfer_state = 227 transfer_state = 228 transfer_state = 245 transfer_state = 259 transfer_state = 260 transfer_state = 265}
         MOL = { transfer_state = 834 }
-        GER = { transfer_state = 137 transfer_state = 196 }
-        RKM = { transfer_state = 239 transfer_state = 195 transfer_state = 205 transfer_state = 208 transfer_state = 214 transfer_state = 219 transfer_state = 222 transfer_state = 223 transfer_state = 224 transfer_state = 244 transfer_state = 246 transfer_state = 247 transfer_state = 248 transfer_state = 252 transfer_state = 253 transfer_state = 254 transfer_state = 255 transfer_state = 257 transfer_state = 258 transfer_state = 263 transfer_state = 264 transfer_state = 351 transfer_state = 879 transfer_state = 880 }
+        GER = { transfer_state = 137 transfer_state = 196}
+        RKM = { transfer_state = 829 transfer_state = 239 transfer_state = 195 transfer_state = 205 transfer_state = 208 transfer_state = 214 transfer_state = 219 transfer_state = 222 transfer_state = 223 transfer_state = 224 transfer_state = 244 transfer_state = 246 transfer_state = 247 transfer_state = 248 transfer_state = 252 transfer_state = 253 transfer_state = 254 transfer_state = 255 transfer_state = 257 transfer_state = 258 transfer_state = 263 transfer_state = 264 transfer_state = 351 transfer_state = 879 transfer_state = 880 }
         JAP = { transfer_state = 655 transfer_state = 1018 }
 		MAN = { transfer_state = 560 transfer_state = 657 transfer_state = 408 transfer_state = 409 }
         
@@ -238,6 +211,8 @@ country_event = {
 
     option = {
         name = soviet.400000000.a
+
+
 		
         set_country_flag = soviet_event_400000000_done 
     }

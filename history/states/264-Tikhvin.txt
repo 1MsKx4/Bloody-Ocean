@@ -18,11 +18,23 @@ state={
 			}
 			add_core_of = RKM
 			add_core_of = SOV
+
+			SOV = {
+				set_province_controller = 3057
+				set_province_controller = 11168
+				set_province_controller = 3154
+				set_province_controller = 163
+				set_province_controller = 9207
+				set_province_controller = 3124
+				set_province_controller = 9102
+				set_province_controller = 6182
+				set_province_controller = 3157
+			}
 		}
 	}
 
 	provinces={
-		39 57 93 152 172 194 3035 3085 3140 3142 3163 6131 6169 9060 9082 9107 9111 9153 9177 9184 9190 11048 11059 11083 11093 11131 11165 13129 
+		39 57 93 152 172 194 3035 3085 3140 3142 3163 6131 6169 9060 9082 9107 9111 9153 9177 9184 9190 11048 11059 11083 11093 11131 11165 13129 60 3057 11168 163 6182 3157 9102 3154 9207 3124 11062 6073 160 81 6189 129
 	}
 
 	local_supplies=9.0 

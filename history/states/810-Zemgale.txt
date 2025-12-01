@@ -4,8 +4,11 @@ state={
 	name="STATE_810"
 
 	history={
+
+
+
 		1943.3.2 = {				
-			owner = RKO
+			owner = SOP
 			victory_points = {
 				6222 3 #Jelgava
 			}
@@ -23,6 +26,15 @@ state={
 				}
 
 			}
+			RKO = {
+				set_province_controller = 7482
+				set_province_controller = 11222
+				set_province_controller = 3298
+				set_province_controller = 222
+				set_province_controller = 319
+				set_province_controller = 9275
+			}	
+			add_core_of = SOP
 			add_core_of = RKO
 		}
 

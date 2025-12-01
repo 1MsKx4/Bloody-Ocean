@@ -1,5 +1,7 @@
 ﻿capital = 100 #Iceland
 
+add_ai_strategy = { type = alliance id = USA value = 200 }
+
 set_oob = "ICE_1936"
 
 set_variable = { ICE.communism_support_needed = 0.15 }

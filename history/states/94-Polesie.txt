@@ -17,7 +17,11 @@ state={
 			}
 			add_core_of = RKO
 			add_core_of = BLR
+			SOP = {
+				set_province_controller = 3309
+			}	
 		}
+
 	}
 
 	provinces={

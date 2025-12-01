@@ -1,10 +1,8 @@
 ﻿
 capital = 742
 
-set_cosmetic_tag = SOV_TAJ
-
 set_politics = {
-	ruling_party = socialism2
+	ruling_party = despotism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -12,8 +10,8 @@ set_politics = {
 set_popularities = {
 	liberalism = 10
 	communism = 10
-	despotism = 5
-	socialism2 = 75
+	despotism = 72
+	socialism2 = 8
 }
 
 set_research_slots = 1

@@ -1,5 +1,7 @@
 ﻿capital = 907
 
+set_cosmetic_tag = ITA_EGY
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

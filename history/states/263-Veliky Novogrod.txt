@@ -18,7 +18,11 @@ state={
 			}
 			add_core_of = RKM
 			add_core_of = SOV
+			SOP = {
+				set_province_controller = 6086
+			}	
 		}
+
 	}
 
 	provinces={

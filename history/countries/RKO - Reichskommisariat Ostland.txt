@@ -1,5 +1,20 @@
 ﻿capital = 808 # Riga
 
+if = {
+	limit = {
+		has_start_date < 1943.03.03
+	}
+
+	declare_war_on = {
+		target = SOV
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SOP
+		type = annex_everything
+	}
+}
+
 oob = "RKO_1943"
 
 set_stability = 0.4
@@ -165,7 +180,7 @@ recruit_character = RKO_hinrich_lohse
 
 add_ideas = {
 	war_economy
-	extensive_conscription
+	limited_conscription
 }
 
 

@@ -11,7 +11,7 @@ state={
 
 	history={
 		1943.3.2 = {
-			owner = GER
+			owner = RKH
 			victory_points = {
 				3569 20
 			}

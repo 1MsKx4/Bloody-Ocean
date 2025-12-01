@@ -6,7 +6,7 @@ state={
 
 	history={
 		1943.3.2 = {		
-			owner = ITA
+			owner = EGY
 			buildings = {
 				infrastructure = 3
 				industrial_complex = 1

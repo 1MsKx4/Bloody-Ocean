@@ -1,6 +1,8 @@
 ﻿capital = 64 # Berlin/Brandeburg
 
 add_ideas = {
+	extensive_conscription
+	war_economy
 	GER_Indestructible_Army
 	GER_Economic_Growth
 	GER_Millennial_Reich
@@ -84,6 +86,10 @@ set_popularities = {
 	natsoc = 60
 }
 
+set_autonomy = {
+	target = RKH
+	autonomous_state = autonomy_puppet
+}
 set_autonomy = {
 	target = RKA
 	autonomous_state = autonomy_puppet

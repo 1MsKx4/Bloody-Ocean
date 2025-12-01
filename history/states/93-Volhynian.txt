@@ -20,8 +20,11 @@ state={
 			}
 			add_core_of = RKU
 			add_core_of = UKR
+			SOP = {
+				set_province_controller = 9520
+			}
 		}
-
+	
 	}
 
 	provinces={

@@ -18,6 +18,9 @@ state={
 			}
 			add_core_of = SOV
 			add_core_of = BLR
+			SOP = {
+				set_province_controller = 11298
+			}	
 		}
 	}
 

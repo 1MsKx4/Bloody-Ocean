@@ -1,0 +1,105 @@
+division_template = {
+	name = "Кавалерия"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Партизанские отряды"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+
+units = {
+	division = {
+		location = 310
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 341
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 6459
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 323
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 11298
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 9301
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 6086
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 3309
+		division_template = "Партизанские отряды"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+
+
+
+	division = {
+		location = 310
+		division_template = "Кавалерия"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 6220
+		division_template = "Кавалерия"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 6264
+		division_template = "Кавалерия"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 6254
+		division_template = "Кавалерия"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+	division = {
+		location = 9520
+		division_template = "Кавалерия"
+		start_experience_factor = 0
+		start_equipment_factor = 0.55
+	}
+}

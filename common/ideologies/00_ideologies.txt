@@ -58,8 +58,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 
-		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
+		ai_neutrality = yes 
 
 		rules = {
 			can_force_government = yes
@@ -188,7 +187,7 @@ ideologies = {
 			lend_lease_tension = 0.50
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutrality = yes
 		ai_ideology_wanted_units_factor = 1.65
 		
 		ai_give_core_state_control_threshold = 10000

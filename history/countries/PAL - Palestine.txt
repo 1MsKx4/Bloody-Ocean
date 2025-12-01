@@ -22,8 +22,7 @@ if = {
 	}
 }
 
-# TODO_GoE - Add DLC checks
-set_cosmetic_tag = PAL_mandate
+set_cosmetic_tag = ITA_PAL
 
 
 set_convoys = 5

@@ -80,7 +80,7 @@ division_template = {
 
 units = {
     division = {	
-        location = 9082
+        location = 6169
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.7

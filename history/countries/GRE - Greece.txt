@@ -1,5 +1,7 @@
 ﻿capital = 47
 
+set_cosmetic_tag = ITA_GRE
+
 set_convoys = 3
 
 oob = "GRE_1943"

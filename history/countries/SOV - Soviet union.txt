@@ -2,6 +2,8 @@
 capital = 219 # Moscow
 
 add_ideas = {
+	extensive_conscription
+	war_economy
 	SOV_Moscow_Defence
 	SOV_NKVD_Disloyal
 	SOV_Anarchist_Rebels
@@ -55,14 +57,35 @@ recruit_character = SOV_Floppa
 
 create_faction = FourthInternational
 add_to_faction = SOV
-add_to_faction = TAT
-add_to_faction = KOM
-add_to_faction = TAJ
-add_to_faction = KAZ
-add_to_faction = AZR
-add_to_faction = GEO
-add_to_faction = FER
 
+set_autonomy = {
+	target = SOP
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = TAT
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = KOM
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = KAZ
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = AZR
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = GEO
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = FER
+	autonomous_state = autonomy_puppet
+}
 set_autonomy = {
 	target = KAR
 	autonomous_state = autonomy_puppet

@@ -18,7 +18,9 @@ state={
 			add_core_of = SOV
 			add_core_of = RKU 
 			add_core_of = RKM
-			
+			SOP = {
+				set_province_controller = 6254
+			}				
 		}
 	}
 

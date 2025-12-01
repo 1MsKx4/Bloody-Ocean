@@ -1,5 +1,7 @@
 ﻿capital = 13272
 
+add_ai_strategy = { type = alliance id = USA value = 200 }
+
 set_convoys = 1
 
 set_politics = {

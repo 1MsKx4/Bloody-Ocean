@@ -19,6 +19,10 @@ state={
 			add_core_of = RKO
 			add_core_of = SOV
 			add_core_of = BLR
+			SOP = {
+				set_province_controller = 323
+				set_province_controller = 6220
+			}	
 		}
 	}
 

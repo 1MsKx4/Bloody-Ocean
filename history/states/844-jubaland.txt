@@ -6,7 +6,8 @@ state = {
 	state_category = pastoral
 	
 	history = {
-		owner = ITA
+		owner = AOI
+		add_core_of = AOI
 		add_core_of = SOM
 		victory_points = {
 		 	12941 1 

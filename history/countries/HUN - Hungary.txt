@@ -1,5 +1,7 @@
 ﻿capital = 43 # Budapest (Northern Hungary)
 
+add_ai_strategy = { type = alliance id = GER value = 200 }
+
 IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"

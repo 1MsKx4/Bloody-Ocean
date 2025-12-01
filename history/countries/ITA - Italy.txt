@@ -29,6 +29,26 @@ set_popularities = {
 }
 
 set_autonomy = {
+	target = TUN
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = ALG
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = PAL
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = EGY
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = AOI
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
 	target = GRE
 	autonomous_state = autonomy_puppet
 }

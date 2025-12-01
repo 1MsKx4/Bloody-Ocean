@@ -147,13 +147,7 @@ units = {
         start_equipment_factor = 0.4
     }
     division = {	
-        location = 6674
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 685
+        location = 9647
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.4
@@ -179,18 +173,6 @@ units = {
     }
     division = {	
         location = 672
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 6674
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 685
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.4
@@ -327,37 +309,8 @@ units = {
         start_experience_factor = 0.07
         start_equipment_factor = 0.4
     }
-    division = {	
-        location = 3529
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 3529
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
 
-    division = {	
-        location = 498
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 498
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 498
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
+
     division = {	
         location = 498
         division_template = "Пехота"
@@ -636,18 +589,6 @@ units = {
         start_equipment_factor = 0.4
     }
     division = {	
-        location = 11282
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 3259
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
         location = 3259
         division_template = "Пехота"
         start_experience_factor = 0.07
@@ -750,18 +691,6 @@ units = {
         start_equipment_factor = 0.4
     }
     division = {	
-        location = 6073
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
-        location = 11062
-        division_template = "Пехота"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
-    division = {	
         location = 11062
         division_template = "Пехота"
         start_experience_factor = 0.07
@@ -782,12 +711,6 @@ units = {
 
 
 
-    division = {	
-        location = 498
-        division_template = "Танковая Дивизия"
-        start_experience_factor = 0.07
-        start_equipment_factor = 0.4
-    }
     division = {	
         location = 498
         division_template = "Танковая Дивизия"

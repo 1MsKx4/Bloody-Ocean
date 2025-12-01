@@ -78,3 +78,47 @@ country_event = {
         add_stability = 0.05
 	}
 }
+
+
+
+
+
+
+
+
+
+
+country_event = {
+    id = kazakhstan.4000000
+    title = kazakhstan.4000000.t
+    desc = kazakhstan.4000000.desc
+    picture = GFX_kazakhstan_4000000
+
+
+    trigger = {
+        tag = KAZ  
+        surrender_progress > 0.05
+        has_war_with = GER 
+    }
+
+    option = {
+        name = kazakhstan.4000000.a
+        SOV = {             
+            set_autonomy = {
+                target = KAZ
+                autonomy_state = autonomy_free           
+            }   
+            remove_from_faction = KAZ
+        }
+        TRL = {
+            transfer_state = 407
+        }
+        set_politics = {  
+            ruling_party = oligarchism 
+        }
+        #drop_cosmetic_tag = yes
+        set_political_party = { ideology = oligarchism popularity = 61 }
+        white_peace = GER
+        406 = { set_demilitarized_zone = yes }
+    }
+}

@@ -17,6 +17,9 @@ state={
 			victory_points = {
 				382 1
 			}
+			SOP = {
+				set_province_controller = 9301
+			}	
 		}
 	}
 
