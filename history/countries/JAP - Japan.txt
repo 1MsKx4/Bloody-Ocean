@@ -288,10 +288,6 @@ set_autonomy = {
 	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 set_autonomy = {
-	target = SIK
-	autonomous_state = autonomy_wtt_imperial_protectorate
-}
-set_autonomy = {
 	target = PRC
 	autonomous_state = autonomy_wtt_imperial_protectorate
 }

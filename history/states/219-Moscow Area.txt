@@ -45,6 +45,7 @@ state={
 				set_province_controller = 366
 				set_province_controller = 9302
 				set_province_controller = 3358
+				set_province_controller = 11236
 			}
 		}
 	}

@@ -5,6 +5,11 @@ SOP = {
 	color_ui = rgb { 105 50 50 }
 }
 
+GOK = {
+	color = rgb { 40 40 45 }
+	color_ui = rgb { 40 40 45 }
+}
+
 BRF = {
 	color = rgb { 200 80 110 }
 	color_ui = rgb { 200 80 110 }	
@@ -143,6 +148,16 @@ MOL = {
 ANA = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
+}
+
+TUF = {
+	color = rgb { 155 0 35 }
+	color_ui = rgb { 155 0 35 }
+}
+
+TSF = {
+	color = rgb { 155 0 35 }
+	color_ui = rgb { 155 0 35 }
 }
 
 NSF = {
@@ -415,8 +430,8 @@ KYR = {
 	color_ui = rgb { 120 80 40 }
 }
 SIK = {
-	color = rgb { 165 75 95 }
-	color_ui = rgb { 165 75 95 }
+	color = rgb { 90 130 190 }
+	color_ui = rgb { 90 130 190 }
 }
 TIB = {
 	color = rgb { 80 115 45}

@@ -16,6 +16,17 @@ state={
 			3578 5 
 		}
 		add_core_of = SOV
+		RKM = {
+			set_province_controller = 9352
+			set_province_controller = 6328
+			set_province_controller = 3304
+			set_province_controller = 3465
+			set_province_controller = 6492
+			set_province_controller = 9460
+			set_province_controller = 11408
+			set_province_controller = 433
+			set_province_controller = 9564
+		}		
 	}
 
 	provinces={

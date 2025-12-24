@@ -2,6 +2,10 @@ SOV_FLOPPA = {
     color = rgb { 100 10 10 }
     color_ui = rgb { 100 10 10 }
 }
+TAN_MON = {
+    color = rgb { 135 40 50 }
+    color_ui = rgb { 135 40 50 }
+}
 SOV_GEO = {
     color = rgb { 145 35 45 }
     color_ui = rgb { 145 35 45 }

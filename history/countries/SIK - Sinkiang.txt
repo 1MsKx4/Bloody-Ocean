@@ -204,13 +204,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	monarchism = 53
+	communism = 47
 }
 
 set_research_slots = 2

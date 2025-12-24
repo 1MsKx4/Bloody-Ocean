@@ -1,6 +1,8 @@
 ANA = «countries/Anarchy.txt»
 NSF = «countries/NSF.txt»
 CAF = «countries/CAF.txt»
+TUF = «countries/TUF.txt»
+TSF = «countries/TSF.txt»
 AFN = «countries/AFN.txt»
 FLA = «countries/FLA.txt»
 FRF = «countries/FRF.txt»
@@ -22,3 +24,4 @@ NPN = «countries/NPN.txt»
 BRF = «countries/BRF.txt»
 TRL = «countries/TRL.txt»
 SOP = «countries/SOP.txt»
+GOK = «countries/GOK.txt»

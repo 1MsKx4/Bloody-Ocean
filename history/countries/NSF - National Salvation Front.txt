@@ -22,9 +22,8 @@ set_popularities = {
 
 create_faction = WorldFront
 add_to_faction = NSF
-add_to_faction = CAF
-
-set_convoys = 150
+add_to_faction = TUF
+add_to_faction = TSF
 
 oob = "NSF_1943"
 

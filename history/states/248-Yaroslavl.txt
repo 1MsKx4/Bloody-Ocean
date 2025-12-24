@@ -16,6 +16,11 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
+		RKM = {
+			set_province_controller = 231
+			set_province_controller = 9345
+			set_province_controller = 11039
+		}
 		add_core_of = SOV
 	}
 

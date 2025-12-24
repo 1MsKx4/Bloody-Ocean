@@ -172,7 +172,7 @@ units = {
 
 
     division = {	
-        location = 10627
+        location = 4196
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.7
@@ -180,19 +180,19 @@ units = {
 
 
     division = {	
-        location = 4709
+        location = 6999
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.7
     }
     division = {	
-        location = 4709
+        location = 6999
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.7
     }
     division = {	
-        location = 4709
+        location = 6999
         division_template = "Пехота"
         start_experience_factor = 0.07
         start_equipment_factor = 0.7

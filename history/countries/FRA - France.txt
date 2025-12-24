@@ -1,4 +1,4 @@
-﻿capital = 16 # Paris/Ile de France 
+﻿capital = 16 
 
 oob = "FRA_1943"
 
@@ -16,16 +16,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = natsoc
 	last_election = "1933.3.5"
-	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 3
-	fascism = 60
-	communism = 12
-	despotism = 25
+	fascism = 3
+	natsoc = 72
+	liberalism = 8
+	oligarchism = 17
 }
 
 set_research_slots = 4

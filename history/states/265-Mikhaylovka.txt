@@ -17,6 +17,10 @@ state={
 			victory_points = {
 				487 1
 			}
+			SOV = {
+				set_province_controller = 6563
+				set_province_controller = 518
+			}	
 		}
 	}
 
